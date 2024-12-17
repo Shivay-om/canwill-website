@@ -26,8 +26,8 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <div className="py-10 md:w-[90%] md:h-screen mx-auto border mt-10">
-      <h2 className="text-center text-2xl md:text-4xl font-semibold mb-6">What Our Clients Say</h2>
+    <div className="py-10 md:w-[90%] md:h-screen mx-auto border mt-10 bg-[#E7F2F9]">
+      <h2 className="text-center text-2xl text-[#0093dd] mt-5 md:text-4xl font-semibold mb-6">What Our Clients Say</h2>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
@@ -52,9 +52,9 @@ const Testimonials = () => {
       >
         {testimonialData.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <div className="flex flex-col items-center w-[80%] mx-auto bg-white p-6 rounded-lg ">
+            <div className="flex flex-col items-center w-[80%] mx-auto  p-6 rounded-lg ">
               <p className="text-center text-xl text-gray-700 my-8 ">{testimonial.text}</p>
-              <p className="font-semibold text-2xl">{testimonial.name}</p>
+              <p className="font-semibold text-[#0093dd] text-2xl">{testimonial.name}</p>
               <p className="text-sm text-gray-500 mb-10">{testimonial.role}</p>
             </div>
           </SwiperSlide>

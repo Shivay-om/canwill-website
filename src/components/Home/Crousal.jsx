@@ -65,8 +65,8 @@ const Crousal = () => {
                             className="w-full h-[189px] md:h-screen object-cover"
                         />
                         {/* Text Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-end pb-10 justify-center bottom-0 text-white text-2xl font-bold">
-                            {slide.text}
+                        <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center bottom-0 text-white text-2xl font-bold animate-slideIn  border-green-300">
+                            <p className='border bg-black bg-opacity-30 px-4 rounded-md'>{slide.text}</p>
                         </div>
                     </SwiperSlide>
                 ))}

@@ -49,16 +49,16 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faPhone} />
                 </div>
                 <div>
-                  <h1 className='text-lg font-semibold'>Phone Number</h1>
+                  <h1 className='text-lg font-semibold hover:text-[#0093dd]'>Phone Number</h1>
                   <p>+91 9821502078</p>
                 </div>
               </div>
-              <div className='flex gap-3 border'>
+              <div className='flex gap-3 border w-[212px]'>
                 <div className='mt-1'>
                   <FontAwesomeIcon icon={faEnvelope} />
                 </div>
                 <div>
-                  <h1 className='text-lg font-semibold'>Email Address</h1>
+                  <h1 className='text-lg font-semibold hover:text-[#0093dd]'>Email Address</h1>
                   <p>canwilldesign@gmail.com</p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faLocationDot} />
                 </div>
                 <div>
-                  <h1 className='text-lg font-semibold'>Location</h1>
+                  <h1 className='text-lg font-semibold hover:text-[#0093dd]'>Location</h1>
                   <p>+91 9821502078</p>
                 </div>
               </div>
@@ -76,9 +76,9 @@ const Footer = () => {
           <div className='  w-[80%] border-green-500'>
             <h1 className='text-center text-lg font-semibold mt-2'>Social Links</h1>
             <div className='flex justify-center items-center gap-8 mt-3'>
-              <FontAwesomeIcon icon={faInstagram} size='xl' className=''/>
-              <FontAwesomeIcon icon={faFacebook} size='xl' />
-              <FontAwesomeIcon icon={faWhatsapp} size='xl' />
+              <FontAwesomeIcon icon={faInstagram} size='xl' className='hover:text-[#0093dd]'/>
+              <FontAwesomeIcon icon={faFacebook} size='xl' className='hover:text-[#0093dd]'/>
+              <FontAwesomeIcon icon={faWhatsapp} size='xl' className='hover:text-[#0093dd]'/>
             </div>
           </div>
         </div>
