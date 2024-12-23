@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className='h-full'>
       <Crousal/>
-      <Hero/>
+      {/* <Hero/> */}
       <Testimonials/>
       <Process/>
       <Articals/>

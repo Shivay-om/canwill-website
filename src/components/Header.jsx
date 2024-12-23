@@ -17,7 +17,7 @@ const Header = () => {
         {/* Logo */}
         <div className="text-lg font-bold">
           <a href="#" className="text-white">
-            <img src={logo} alt="" className="w-32 h-20" />
+            <img src={logo} alt="" className="w-22 h-20" />
           </a>
         </div>
 
@@ -54,23 +54,23 @@ const Header = () => {
             </button>
           </div>
           <nav className="flex flex-col px-10 py-6 ">
-            <a href="#" className="block py-2  hover:text-[#0093dd]">
+            <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Home
             </a>
-            <a href="#" className="block py-2  hover:text-[#0093dd]">
+            <a href="#" className="block py-2  hover:text-[#00b8b8]">
               About Us
             </a>
-            <a href="#" className="block py-2  hover:text-[#0093dd]">
+            <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Portfolio
             </a>
-            <a href="#" className="block py-2  hover:text-[#0093dd]">
+            <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Testimonials
             </a>
-            <a href="#" className="block py-2  hover:text-[#0093dd]">
+            <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Contact Us
             </a>
           </nav>
-          <button className="border ml-8 px-8 p-2 flex justify-center items-center gap-2 bg-black text-white hover:bg-[#0093dd] rounded-md">Get a Quote
+          <button className="border ml-8 px-8 p-2 flex justify-center items-center gap-2 bg-black text-white hover:bg-[#00b8b8] rounded-md">Get a Quote
             <GoArrowUpRight size={20} className="font-bold " />
           </button>
         </div>

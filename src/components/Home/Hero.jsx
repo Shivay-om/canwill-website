@@ -20,7 +20,7 @@ const Hero = () => {
             </div>
 
             <div className='relative overflow-hidden  h-[400px] my-10'>
-                <img src={img2} alt="" className='absolute w-[400px] h-[250px] -left-20 rounded-3xl' />
+                <img src={img2} alt="" className='absolute animate-heroIn w-[400px] h-[250px] -left-20 rounded-3xl' />
                 <img src={img3} alt="" className='absolute w-[400px] h-[250px] rounded-3xl bottom-0 -right-20' />
                 <div className='p-10 w-[35%] h-full mx-auto flex flex-col items-center justify-center '>
                     <GiStarShuriken size={22} className='mb-3' />

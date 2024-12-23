@@ -1,1 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.custom-prev,
+.custom-next {
+  color: #00B8B8;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  color: #fff;
+}
+
+//* Customize the default bullet color */
+.swiper-pagination-bullet {
+  background-color: #00B8B8 !important; /* Primary color for the dots */
+  opacity: 0.5 !important; /* Slightly transparent */
+  width: 12px !important; /* Adjust the size of the dots */
+  height: 12px !important;
+  margin: 0 5px !important; /* Add spacing between dots */
+}
+
+/* Customize the active dot color */
+.swiper-pagination-bullet-active {
+  background-color: #00B8B8  !important; /* Different shade for the active dot */
+  opacity: 1 !important; /* Fully opaque */
+  transform: scale(1.2) !important; /* Slightly larger active dot */
+  transition: transform 0.3s ease, background-color 0.3s ease !important; /* Smooth transition */
+}
+
+
