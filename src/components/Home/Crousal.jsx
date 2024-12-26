@@ -65,10 +65,10 @@ const Crousal = () => {
     return (
         <div className="w-full h-full">
             {/* Custom Navigation Buttons */}
-            <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2 border border-[#00B8B8] hover:bg-[#00B8B8] p-2">
+            <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2   p-2">
                 <IoIosArrowBack size={24} />
             </button>
-            <button className="custom-next absolute top-1/2 right-2 z-10 transform -translate-y-1/2 border border-[#00B8B8] hover:bg-[#00B8B8] p-2">
+            <button className="custom-next absolute top-1/2 right-2 z-10 transform -translate-y-1/2   p-2">
                 <IoIosArrowForward size={24} />
             </button>
 
@@ -94,7 +94,7 @@ const Crousal = () => {
                         />
                         {/* Text Overlay */}
                         <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center bottom-0 text-white text-2xl font-bold animate-slideIn  border-green-300">
-                            <p className='border bg-black bg-opacity-30 px-6 py-1 rounded-md'>{slide.text}</p>
+                            <p className='bg-opacity-30 px-6 py-1 rounded-md drop-shadow-2xl'>{slide.text}</p>
                         </div>
                     </SwiperSlide>
                 ))}

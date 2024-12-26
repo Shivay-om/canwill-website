@@ -9,8 +9,8 @@ const Articals = () => {
         <div className='md:h-auto px-10 pb-5'>
             <div>
                 <div className='flex justify-center items-center '>
-                    <div className='w-10 border-b border-[#00b8b8] border mr-2'></div>
-                    <h1 className='text-4xl text-[#00b8b8] font-semibold mb-5 mt-5 py-5 '>Magazine Features</h1>
+                    <div className='w-10 border-b border-gray-700 border mr-2'></div>
+                    <h1 className='text-4xl text-gray-700 font-semibold mb-5 mt-5 py-5 '>Magazine Features</h1>
                 </div>
                 
                 <div className='flex gap-5'>

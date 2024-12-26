@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className="w-full shadow-lg">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-8 py-3">
+      <div className=" mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <div className="text-lg font-bold">
           <a href="#" className="text-white">

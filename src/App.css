@@ -4,12 +4,12 @@
 
 .custom-prev,
 .custom-next {
-  color: #00B8B8;
+  color: black;
 }
 
 .custom-prev:hover,
 .custom-next:hover {
-  color: #fff;
+  color: #00B8B8;
 }
 
 //* Customize the default bullet color */
@@ -23,7 +23,7 @@
 
 /* Customize the active dot color */
 .swiper-pagination-bullet-active {
-  background-color: #00B8B8  !important; /* Different shade for the active dot */
+  background-color: black  !important; /* Different shade for the active dot */
   opacity: 1 !important; /* Fully opaque */
   transform: scale(1.2) !important; /* Slightly larger active dot */
   transition: transform 0.3s ease, background-color 0.3s ease !important; /* Smooth transition */
