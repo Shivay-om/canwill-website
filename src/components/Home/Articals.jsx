@@ -13,7 +13,7 @@ const Articals = () => {
                     <h1 className='text-4xl text-gray-700 font-semibold mb-5 mt-5 py-5 '>Magazine Features</h1>
                 </div>
                 
-                <div className='flex gap-5'>
+                <div className='flex'>
                     <div className='p-5 w-[50%]'>
                         <div className="overflow-hidden w-4/5 mx-auto relative group rounded-lg">
                             <img
@@ -27,6 +27,7 @@ const Articals = () => {
                         <p className='w-[90%] text-center hover:text-[#00b8b8] mt-3 mb-1 mx-auto'>A 4bhk home in Powai, crafted in Bold, Beautiful, and trendy <br /> shades of Blue by Canwill Design Associates</p>
                         <h1 className='text-center text-sm text-gray-500'>GoodHomes, Apr 2022</h1>
                     </div>
+
                     <div className='p-5 w-[50%]'>
                         <div className="overflow-hidden  w-4/5 mx-auto  relative group rounded-lg border-black">
                             <img

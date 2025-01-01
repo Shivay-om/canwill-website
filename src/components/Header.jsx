@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import logo from '../assets/logo.png'
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,13 +54,14 @@ const Header = () => {
               <FontAwesomeIcon icon={faTimes} className="text-2xl" />
             </button>
           </div>
+
           <nav className="flex flex-col px-10 py-6 ">
-            <a href="#" className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               Home
-            </a>
-            <a href="#" className="block py-2  hover:text-[#00b8b8]">
+            </Link>
+            <Link to="/about" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               About Us
-            </a>
+            </Link>
             <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Portfolio
             </a>
@@ -70,6 +72,7 @@ const Header = () => {
               Contact Us
             </a>
           </nav>
+
           <button className="border ml-8 px-8 p-2 flex justify-center items-center gap-2 bg-black text-white hover:bg-[#00b8b8] rounded-md">Get a Quote
             <GoArrowUpRight size={20} className="font-bold " />
           </button>
