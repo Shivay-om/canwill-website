@@ -16,7 +16,7 @@ const Process = () => {
                     <div className='w-10 border-b border-gray-700 border mr-2'></div>
                     <h1 className='text-4xl font-sans font-semibold mt-5 mb-5 text-gray-700'>Our Process</h1>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5 w-full p-5">
+                <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5 w-full p-5">
                     <div className="flex justify-center items-center p-5">
                         <img src={icon1} alt="" className="w-[90px] h-[90px]" />
                     </div>
@@ -31,7 +31,10 @@ const Process = () => {
                     </div>
                 </div>
 
-                <div className='flex pt-5'>
+                <div className='flex flex-col md:flex-row pt-5 border'>
+                    <div className="flex justify-center items-center md:hidden p-5">
+                        <img src={icon1} alt="" className="w-[90px] h-[90px]" />
+                    </div>
                     <div className='flex justify-between gap-5 pb-2  border-[#00B8B8] '>
                         <div className=''>
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full'>01</p>
@@ -42,6 +45,10 @@ const Process = () => {
                         </div>
                     </div>
 
+
+                    <div className="flex justify-center items-center md:hidden p-5">
+                        <img src={icon2} alt="" className="w-[70px] h-[70px]" />
+                    </div>
                     <div className='flex justify-between gap-5 border-[#00B8B8] border-r  border-l'>
                         <div>
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>02</p>
@@ -52,6 +59,10 @@ const Process = () => {
                         </div>
                     </div>
 
+
+                    <div className="flex justify-center items-center md:hidden p-5">
+                        <img src={icon3} alt="" className="w-[70px] h-[70px]" />
+                    </div>
                     <div className='flex justify-between gap-5 border-[#00b8b8] border-r  '>
                         <div>
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>03</p>
@@ -62,6 +73,9 @@ const Process = () => {
                         </div>
                     </div>
 
+                    <div className="flex justify-center items-center md:hidden p-5">
+                        <img src={icon4} alt="" className="w-[70px] h-[70px]" />
+                    </div>
                     <div className='flex justify-between gap-5 border-[#00b8b8] '>
                         <div>
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>04</p>

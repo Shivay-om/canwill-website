@@ -17,9 +17,9 @@ const Header = () => {
       <div className=" mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <div className="text-lg font-bold">
-          <a href="#" className="text-white">
+          <Link to="/" className="text-white">
             <img src={logo} alt="" className="w-22 h-20" />
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger Icon */}
@@ -62,9 +62,9 @@ const Header = () => {
             <Link to="/about" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               About Us
             </Link>
-            <a href="#" className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/portfolio" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               Portfolio
-            </a>
+            </Link>
             <a href="#" className="block py-2  hover:text-[#00b8b8]">
               Testimonials
             </a>
