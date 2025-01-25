@@ -6,7 +6,7 @@ import social3 from '../../assets/social3.svg'
 import connect1 from '../../assets/connect1.svg'
 import connect2 from '../../assets/connect2.svg'
 import contact from '../../assets/contact.svg'
-import location from '../../assets/location.svg'
+import location from '../../assets/icon.svg'
 import social from '../../assets/Social.svg'
 
 const ContactPage = () => {
@@ -17,12 +17,12 @@ const ContactPage = () => {
       </div>
 
       <div className='lg:flex justify-between items-center lg:w-[90%]  mx-auto p-5' >
-        <h1 className='text-2xl font-semibold mb-2 md:mb-5 md:text-4xl lg:text-5xl  text-center'>Get in Touch</h1>
+        <h1 className='text-2xl font-semibold mb-2 md:mb-5 lg:mb-0 md:text-4xl lg:text-5xl  text-center '>Get in Touch</h1>
         <p className='text-center leading-7 lg:text-lg'>For all project inquiries, email canwilldesign@gmail.com with the subject NEW PROJECT</p>
       </div>
 
       <div className='flex flex-col justify-between gap-8 md:grid grid-cols-2 lg:grid-cols-3 md:gap-8 md:w-[90%] lg:w-[80%]  mx-auto my-10 '>
-        <div className='border flex  flex-col gap-4 p-5 pb-10 px-7 w-[90%] mx-auto font-custom rounded-xl border-[#00B8B8]'>
+        <div className='border flex  flex-col gap-4 p-7 px-7 w-[90%] mx-auto font-custom rounded-xl border-[#00B8B8]'>
           <img src={contact} alt="" className='w-12 h-12' />
           <h1 className='text-lg font-semibold tracking-wide '>Connect with us</h1>
           <div>

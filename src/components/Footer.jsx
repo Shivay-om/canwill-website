@@ -4,6 +4,7 @@ import logo from '../assets/logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faLocationDot, } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,9 +16,9 @@ const Footer = () => {
           <div className='pt-5'>
             <div className='md:flex justify-between mb-6 '>
               <div className='flex justify-center'>
-              <img src={logo} alt="" className='w-auto h-[160px] ' />
+                <img src={logo} alt="" className='w-auto h-[160px] ' />
               </div>
-              
+
 
               <div className=' md:hidden my-8'>
                 <h1 className='text-2xl text-center font-semibold mb-5 '>Pages</h1>
@@ -25,16 +26,16 @@ const Footer = () => {
                   <div>
                     <ul className="space-y-2">
                       <li>
-                        <a href="#about-us" className="hover:underline">About Us</a>
+                        <Link to="/about" className="hover:underline">About Us</Link>
                       </li>
                       <li>
-                        <a href="#testimonials" className="hover:underline">Testimonials</a>
+                        <Link to="/portfolio" className="hover:underline">Portfolio</Link>
                       </li>
                       <li>
-                        <a href="#process" className="hover:underline">Process</a>
+                        <Link to="/contact" className="hover:underline">Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#contact-us" className="hover:underline">Contact Us</a>
+                        <Link to="/getQuote" className="hover:underline">Get a Quote</Link>
                       </li>
                     </ul>
                   </div>
@@ -62,16 +63,16 @@ const Footer = () => {
               <div>
                 <ul className="space-y-2">
                   <li>
-                    <a href="#about-us" className="hover:underline">About Us</a>
+                    <Link to="/about" className="hover:text-[#00b8b8]">About Us</Link>
                   </li>
                   <li>
-                    <a href="#testimonials" className="hover:underline">Testimonials</a>
+                    <Link to="/portfolio" className="hover:text-[#00b8b8]">Portfolio</Link>
                   </li>
                   <li>
-                    <a href="#process" className="hover:underline">Process</a>
+                    <Link to="/contact" className="hover:text-[#00b8b8]">Contact Us</Link>
                   </li>
                   <li>
-                    <a href="#contact-us" className="hover:underline">Contact Us</a>
+                    <Link to="/getQuote" className="hover:text-[#00b8b8]">Get a Quote</Link>
                   </li>
                 </ul>
               </div>

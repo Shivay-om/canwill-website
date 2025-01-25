@@ -9,12 +9,14 @@ import Portfolio from './components/portfolio/Portfolio';
 import DaniHotels from './components/portfolio/DaniHotels';
 import ContactPage from './components/contact/ContactPage';
 import GetQuotePage from './components/getQuote/GetQuotePage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
   return (
     <Router>
       <Header />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

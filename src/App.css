@@ -5,7 +5,7 @@
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  /* font-family: 'californian-fb-regular'; */
+  font-family: 'californian-fb-regular';
 }
 
 @font-face {
@@ -23,6 +23,18 @@ input:-webkit-autofill {
   background-color: transparent !important;
   box-shadow: 0 0 0px 1000px white inset !important;
   -webkit-text-fill-color: inherit !important;
+}
+
+.custom-prev,
+.custom-next {
+  display: none; /* Hide navigation buttons by default */
+}
+
+@media (min-width: 768px) {
+  .custom-prev,
+  .custom-next {
+    display: flex; /* Show navigation buttons on large screens */
+  }
 }
 
 .custom-prev,

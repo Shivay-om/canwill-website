@@ -40,7 +40,7 @@ const testimonialData = [
 
 const Testimonials = () => {
   return (
-    <div className="relative py-10 md:w-[90%] md:h-[450px] mx-auto mt-10">
+    <div className="relative p-5 md:py-10 md:w-[90%] md:h-[450px] mx-auto mt-10">
       <h2 className="text-center text-xl text-gray-700 mt-5 md:text-2xl font-semibold mb-6">" Meet Our Happy Customers / Just Don't take our word for it!!</h2>
 
       {/* Custom Navigation Buttons */}
@@ -53,10 +53,11 @@ const Testimonials = () => {
 
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        navigation={{
-          prevEl: ".custom-prev",
-          nextEl: ".custom-next",
-        }}
+        // navigation={{
+        //   prevEl: ".custom-prev",
+        //   nextEl: ".custom-next",
+        // }}
+        navigation={false}
         spaceBetween={30}
         slidesPerView={1}
         loop={true}
@@ -69,6 +70,13 @@ const Testimonials = () => {
           el: ".custom-pagination",
         }}
         breakpoints={{
+          1024: {
+            navigation: true,
+          },
+          0: {
+            // Disable navigation for screens below 1024px
+            navigation: false,
+          },
           640: {
             slidesPerView: 1,
           },
@@ -76,13 +84,13 @@ const Testimonials = () => {
             slidesPerView: 1,
           },
         }}
-        className="custom-swiper"
+        className="custom-swiper border-black"
       >
         {testimonialData.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <div className="flex flex-col items-center w-[80%] mx-auto  p-4 px-6 rounded-lg ">
-              <p className="text-center text-xl  my-6 ">{testimonial.text}</p>
-              <p className=" text-gray-500 text-2xl mb-4">{testimonial.Location}</p>
+            <div className="flex flex-col items-center md:w-[80%] mx-auto  md:p-4 md:px-6 rounded-lg ">
+              <p className="text-center md:text-xl  my-6 ">{testimonial.text}</p>
+              <p className=" text-gray-500 md:text-2xl mb-4">{testimonial.Location}</p>
             </div>
           </SwiperSlide>
         ))}

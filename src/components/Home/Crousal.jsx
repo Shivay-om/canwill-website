@@ -90,11 +90,11 @@ const Crousal = () => {
                             src={slide.image}
                             alt={`Slide ${index + 1}`}
                             loading="lazy"
-                            className="w-full h-[189px] md:h-screen object-cover"
+                            className="w-full h-full lg:h-screen object-cover"
                         />
                         {/* Text Overlay */}
-                        <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center bottom-0 text-white text-2xl font-bold animate-slideIn  border-green-300">
-                            <p className='bg-opacity-30 px-6 py-1 rounded-md drop-shadow-2xl'>{slide.text}</p>
+                        <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center -bottom-2 md:bottom-0 text-white text-2xl font-bold animate-slideIn  border-green-300">
+                            <h1 className='bg-opacity-30 text-sm md:text-2xl px-6 md:py-1 tracking-wider rounded-md drop-shadow-2xl '>{slide.text}</h1>
                         </div>
                     </SwiperSlide>
                 ))}

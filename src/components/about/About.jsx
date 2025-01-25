@@ -11,10 +11,32 @@ const About = () => {
         <>
             <div className='p-5 md:p-10'>
                 <div>
-                    <img src={team} alt="" className='md:h-screen w-full object-cover rounded-xl' />
-                    <h1 className='text-3xl font-semibold text-center mt-5 mb-3'>"About Us" / "Who We Are"</h1>
+                    <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />
+                    <h1 className='text-2xl md:text-3xl font-semibold text-center mt-5 md:mt-10 mb-3'>"About Us" / "Who We Are"</h1>
                     <p className='text-center mb-8 tracking-wider'>"Transforming spaces with creativity and precision, turning design dreams into stunning reality."</p>
-                    <p className='text-justify px-2 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ducimus ullam eveniet vel temporibus, veritatis placeat praesentium laboriosam nulla earum eligendi, cumque nobis rerum sunt sapiente porro quam repellendus. Corporis quia reprehenderit, tempore voluptas, est perspiciatis quos dolorem consequuntur ipsam minus in unde? Temporibus culpa, quibusdam nihil perspiciatis voluptatem optio odio sit enim, sint maiores vero corrupti ex veniam facilis voluptates, est voluptatum non natus in. Nesciunt quod sequi in debitis tempore aspernatur non quis suscipit harum id. Maiores ut nisi saepe eos sapiente voluptatum nulla quae, aspernatur nemo accusamus perferendis tempore? Sunt sit cupiditate error recusandae ex molestias fugit facere a, magni qui hic totam repellat voluptatibus soluta dolore explicabo numquam velit quidem? Eveniet numquam porro dolore fuga corrupti aut aperiam, reprehenderit vero, qui quaerat dolorum quis ipsum delectus? Distinctio officiis necessitatibus iusto tenetur laudantium exercitationem esse rem placeat sequi modi sunt doloremque aperiam blanditiis eveniet corporis illo, sapiente magnam. Aliquid eveniet incidunt quibusdam culpa recusandae praesentium sed nesciunt sunt aperiam pariatur? Dolorem repellat rem quae molestias a fugit neque eum earum, qui, expedita blanditiis maxime nam ipsam officiis necessitatibus ratione totam ad modi pariatur dolores perferendis. Veniam assumenda recusandae repellendus! Architecto saepe incidunt, error obcaecati doloremque voluptatem quae!</p>
+
+                    <div className='my-5 lg:w-[85%] mx-auto'>
+                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Ideology</h1>
+                        <p className='text-justify'>Welcome to Canwill Design Associates, where creativity meets functionality, and every space tells a story. We are dedicated to creating timeless and durable designs that stand the test of time.</p>
+                        <p className='mt-3 text-justify'>With over two decades of industry expertise, we believe that great design goes beyond aesthetics—it’s about crafting spaces that resonate with your personality, meet your needs, and inspire your everyday life. Whether it’s a cozy home, a luxurious retreat, or a high-tech laboratory, we bring a unique blend of artistic vision and practical expertise to every project we undertake.</p>
+                    </div>
+
+                    <div className=' my-5 pt-5 lg:w-[85%] mx-auto '>
+                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Our Philosophy</h1>
+                        <p className='text-justify'>Design is personal, and so are we. Our approach is rooted in collaboration, ensuring that your voice is at the heart of every decision. We specialize in creating spaces that are not only visually stunning but also tailored to your lifestyle and aspirations.</p>
+                    </div>
+
+                    <div className=' my-5 pt-5 lg:w-[85%] mx-auto'>
+                    <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>What Sets Us Apart</h1>
+                        <p className='text-justify'>Custom Solutions: Every project is a fresh canvas. We pride ourselves on bespoke designs that reflect your individuality.</p>
+                        <p className='text-justify'>Attention to Detail: From concept to completion, we obsess over the little things that make a big difference.</p>
+                    </div>
+
+                    <div className=' my-5 pt-5 lg:w-[85%] mx-auto'>
+                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Let’s Create Together</h1>
+                        <p className='text-justify'>Whether you’re starting from scratch or revamping an existing space,Canwill Design is here to transform your ideas into reality. Let’s build something extraordinary.</p>
+                    </div>
+                    
                 </div>
 
 
@@ -26,7 +48,7 @@ const About = () => {
                         The Brain Behind Canwill Design.</h1>
                     <div className='md:flex justify-around mb-10'>
                         <div className='md:w-[40%] flex justify-center'>
-                            <img src={founder1} alt="" className='w-[300px] h-auto' />
+                            <img src={founder1} alt="" className='w-[300px] h-auto rounded-lg' />
                         </div>
 
                         <div className='md:w-[60%] flex flex-col justify-center '>
@@ -39,7 +61,7 @@ const About = () => {
 
                     <div className='md:flex justify-around pt-12'>
                         <div className='md:w-[40%] flex justify-center'>
-                            <img src={founder2} alt="" className='w-[300px] h-auto' />
+                            <img src={founder2} alt="" className='w-[300px] h-auto rounded-lg' />
                         </div>
 
                         <div className='md:w-[60%] flex flex-col justify-center '>
@@ -52,7 +74,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='bg-[#f8f5f5] p-10 mb-5'>
+            <div className='bg-[#f7f7f7] p-10 mb-5'>
                 <div className=' flex flex-col justify-center items-center'>
                     <h1 className='text-2xl text-center font-semibold'>Start a conversation about your project today!</h1>
                     <button className='mt-8 border border-black rounded-sm hover:bg-black hover:text-white bg-transparent bg-opacity-50 p-2 px-4'>Connect With Us
