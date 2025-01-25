@@ -6,6 +6,7 @@ import { faPhone, faEnvelope, faLocationDot, } from '@fortawesome/free-solid-svg
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
+
 const Footer = () => {
   return (
     <>

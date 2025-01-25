@@ -65,12 +65,12 @@ const Crousal = () => {
     return (
         <div className="w-full h-full">
             {/* Custom Navigation Buttons */}
-            <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2   p-2">
+            {/* <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2   p-2">
                 <IoIosArrowBack size={24} />
             </button>
             <button className="custom-next absolute top-1/2 right-2 z-10 transform -translate-y-1/2   p-2">
                 <IoIosArrowForward size={24} />
-            </button>
+            </button> */}
 
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}

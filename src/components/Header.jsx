@@ -65,17 +65,17 @@ const Header = () => {
             <Link to="/portfolio" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               Portfolio
             </Link>
-            <a href="#" className="block py-2  hover:text-[#00b8b8]">
-              Testimonials
-            </a>
-            <a href="#" className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/contact" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
               Contact Us
-            </a>
+            </Link>
           </nav>
 
-          <button className="border ml-8 px-8 p-2 flex justify-center items-center gap-2 bg-black text-white hover:bg-[#00b8b8] rounded-md">Get a Quote
-            <GoArrowUpRight size={20} className="font-bold " />
-          </button>
+          <Link to="/getQuote" onClick={toggleMenu}>
+            <button className="border ml-8 px-8 p-2 flex justify-center items-center gap-2 bg-black text-white hover:bg-[#00b8b8] rounded-md group">Get a Quote
+              <GoArrowUpRight size={20} className="font-bold group-hover:-translate-y-1 transition" />
+            </button>
+          </Link>
+
         </div>
       </div>
     </header>

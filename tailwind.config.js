@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['playfair-display',], 
+        custom: ['californian-fb-regular',],
       },
       keyframes: {
         slideIn: {

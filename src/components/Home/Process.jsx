@@ -14,7 +14,7 @@ const Process = () => {
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex justify-center items-center'>
                     <div className='w-10 border-b border-gray-700 border mr-2'></div>
-                    <h1 className='text-4xl font-sans font-semibold mt-5 mb-5 text-gray-700'>Our Process</h1>
+                    <h1 className='text-4xl font-custom font-semibold mt-5 mb-5 text-gray-700'>Our Process</h1>
                 </div>
                 <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5 w-full p-5">
                     <div className="flex justify-center items-center p-5">
@@ -31,17 +31,17 @@ const Process = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row pt-5 border'>
+                <div className='flex flex-col md:flex-row border'>
                     <div className="flex justify-center items-center md:hidden p-5">
                         <img src={icon1} alt="" className="w-[90px] h-[90px]" />
                     </div>
-                    <div className='flex justify-between gap-5 pb-2  border-[#00B8B8] '>
-                        <div className=''>
-                            <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full'>01</p>
+                    <div className='flex justify-between gap-5 pb-2 max-w-[263px]  border-[#00B8B8] '>
+                        <div className='mt-4'>
+                            <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>01</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Site Study and Analysis</h1>
-                            <p className=' w-[85%]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum exercitationem ipsa minus aut reprehenderit eaque explicabo. At voluptate assumenda dolore.</p>
+                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Discovery</h1>
+                            <p className=' w-[90%] border mb-5 md:mb-0'>We start by understanding your vision, preferences, and needs.</p>
                         </div>
                     </div>
 
@@ -49,13 +49,13 @@ const Process = () => {
                     <div className="flex justify-center items-center md:hidden p-5">
                         <img src={icon2} alt="" className="w-[70px] h-[70px]" />
                     </div>
-                    <div className='flex justify-between gap-5 border-[#00B8B8] border-r  border-l'>
+                    <div className='flex justify-between gap-5 max-w-[263px] max-h-full  border-[#00B8B8] md:border-r  md:border-l'>
                         <div>
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>02</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Concept Development</h1>
-                            <p className='w-[85%]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum exercitationem ipsa minus aut reprehenderit eaque explicabo. At voluptate assumenda dolore.</p>
+                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Design</h1>
+                            <p className='w-[90%] border mb-5'>Our creative team develops detailed concepts and mood boards to bring your ideas to life. </p>
                         </div>
                     </div>
 
@@ -63,26 +63,26 @@ const Process = () => {
                     <div className="flex justify-center items-center md:hidden p-5">
                         <img src={icon3} alt="" className="w-[70px] h-[70px]" />
                     </div>
-                    <div className='flex justify-between gap-5 border-[#00b8b8] border-r  '>
+                    <div className='flex justify-between gap-5 max-w-[263px]  border-[#00b8b8] md:border-r  '>
                         <div>
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>03</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Planning</h1>
-                            <p className='w-[85%]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum exercitationem ipsa minus aut reprehenderit eaque explicabo. At voluptate assumenda dolore.</p>
+                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Execution</h1>
+                            <p className='w-[90%] mb-5 md:mb-0'>From sourcing materials to managing timelines, we ensure every detail aligns with the design.</p>
                         </div>
                     </div>
 
                     <div className="flex justify-center items-center md:hidden p-5">
                         <img src={icon4} alt="" className="w-[70px] h-[70px]" />
                     </div>
-                    <div className='flex justify-between gap-5 border-[#00b8b8] '>
+                    <div className='flex justify-between gap-5  max-w-[263px] border-[#00b8b8] '>
                         <div>
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>04</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Execution</h1>
-                            <p className='w-[85%]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum exercitationem ipsa minus aut reprehenderit eaque explicabo. At voluptate assumenda dolore.</p>
+                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Delivery</h1>
+                            <p className='w-[90%] mb-5 md:mb-0'>The result is a space that feels like it was always meant to be yours.</p>
                         </div>
                     </div>
                 </div>
