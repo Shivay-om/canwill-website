@@ -11,7 +11,6 @@ import ContactPage from './components/contact/ContactPage';
 import GetQuotePage from './components/getQuote/getQuotePage';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
