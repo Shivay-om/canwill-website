@@ -6,7 +6,7 @@ import social3 from '../../assets/social3.svg'
 import connect1 from '../../assets/connect1.svg'
 import connect2 from '../../assets/connect2.svg'
 import contact from '../../assets/contact.svg'
-import location from '../../assets/icon.svg'
+import location from '../../assets/Icon.svg'
 import social from '../../assets/Social.svg'
 
 const ContactPage = () => {
