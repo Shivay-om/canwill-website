@@ -8,7 +8,7 @@ import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import DaniHotels from './components/portfolio/DaniHotels';
 import ContactPage from './components/contact/ContactPage';
-import GetQuotePage from './components/getQuote/getQuotePage';
+import GetQuotePage from './components/getQuote/GetQuotePage';
 
 function App() {
 
