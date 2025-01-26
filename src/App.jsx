@@ -10,6 +10,7 @@ import DaniHotels from './components/portfolio/DaniHotels';
 import ContactPage from './components/contact/ContactPage';
 import GetQuotePage from './components/getQuote/GetQuotePage';
 import ScrollToTop from './components/ScrollToTop';
+import ThankYouPage from './components/contact/ThankYouPage';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
 
         <Route path="/getQuote" element={<GetQuotePage/>} />
+        <Route path="/thank-you" element={<ThankYouPage/>} />
 
       </Routes>
       <Footer />

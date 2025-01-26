@@ -1,5 +1,6 @@
 import React from 'react'
 import getQuote from '../../assets/getQuote.jpg'
+import { Link } from 'react-router-dom';
 
 const GetQuotePage = () => {
   const cities = ['Banglore', 'Hyderabad', 'Chennai', 'Mumbai', 'Navi Mumbai', 'Thane', 'Mysore', "Pune", 'Others'];
@@ -136,12 +137,14 @@ const GetQuotePage = () => {
 
             {/* Submit Button */}
             <div>
-              <button
-                type="submit"
-                className="w-full bg-[#03b9b9] text-white py-3 px-4 rounded-md hover:bg-[#03b9b9d3] transition"
-              >
-                Send Message
-              </button>
+              <Link to='/thank-you'>
+                <button
+                  type="submit"
+                  className="w-full bg-[#03b9b9] text-white py-3 px-4 rounded-md hover:bg-[#03b9b9d3] transition"
+                >
+                  Submit
+                </button>
+              </Link>
             </div>
           </form>
         </div>

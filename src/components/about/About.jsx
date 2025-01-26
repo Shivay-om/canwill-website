@@ -12,28 +12,27 @@ const About = () => {
             <div className='p-5 md:p-10'>
                 <div>
                     <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />
-                    <h1 className='text-2xl md:text-3xl font-semibold text-center mt-5 md:mt-10 mb-3'>"About Us" / "Who We Are"</h1>
-                    <p className='text-center mb-8 tracking-wider'>"Transforming spaces with creativity and precision, turning design dreams into stunning reality."</p>
+                    <h1 className='text-3xl md:text-4xl text-gray-700 font-semibold text-center mt-5 md:mt-10 mb-3'>About Us</h1>
 
                     <div className='my-5 lg:w-[85%] mx-auto'>
-                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Ideology</h1>
+                        <h1 className='text-2xl text-center text-gray-700 md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Ideology</h1>
                         <p className='text-justify'>Welcome to Canwill Design Associates, where creativity meets functionality, and every space tells a story. We are dedicated to creating timeless and durable designs that stand the test of time.</p>
                         <p className='mt-3 text-justify'>With over two decades of industry expertise, we believe that great design goes beyond aesthetics—it’s about crafting spaces that resonate with your personality, meet your needs, and inspire your everyday life. Whether it’s a cozy home, a luxurious retreat, or a high-tech laboratory, we bring a unique blend of artistic vision and practical expertise to every project we undertake.</p>
                     </div>
 
                     <div className=' my-5 pt-5 lg:w-[85%] mx-auto '>
-                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Our Philosophy</h1>
+                        <h1 className='text-2xl text-center text-gray-700 md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Our Philosophy</h1>
                         <p className='text-justify'>Design is personal, and so are we. Our approach is rooted in collaboration, ensuring that your voice is at the heart of every decision. We specialize in creating spaces that are not only visually stunning but also tailored to your lifestyle and aspirations.</p>
                     </div>
 
                     <div className=' my-5 pt-5 lg:w-[85%] mx-auto'>
-                    <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>What Sets Us Apart</h1>
+                    <h1 className='text-2xl text-center text-gray-700 md:text-3xl md:text-start tracking-wider font-semibold mb-3'>What Sets Us Apart</h1>
                         <p className='text-justify'>Custom Solutions: Every project is a fresh canvas. We pride ourselves on bespoke designs that reflect your individuality.</p>
                         <p className='text-justify'>Attention to Detail: From concept to completion, we obsess over the little things that make a big difference.</p>
                     </div>
 
                     <div className=' my-5 pt-5 lg:w-[85%] mx-auto'>
-                        <h1 className='text-2xl text-center md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Let’s Create Together</h1>
+                        <h1 className='text-2xl text-center text-gray-700 md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Let’s Create Together</h1>
                         <p className='text-justify'>Whether you’re starting from scratch or revamping an existing space,Canwill Design is here to transform your ideas into reality. Let’s build something extraordinary.</p>
                     </div>
                     
@@ -44,8 +43,7 @@ const About = () => {
 
                 {/* founders */}
                 <div className=' my-10 '>
-                    <h1 className='text-3xl font-semibold text-center leading-relaxed my-5 mb-10'>Meet our Founders <br />
-                        The Brain Behind Canwill Design.</h1>
+                    <h1 className='text-3xl md:text-4xl text-gray-700 font-semibold text-center leading-relaxed my-5 mb-10 md:pt-5'>Meet our Founders</h1>
                     <div className='md:flex justify-around mb-10'>
                         <div className='md:w-[40%] flex justify-center'>
                             <img src={founder1} alt="" className='w-[300px] h-auto rounded-lg' />

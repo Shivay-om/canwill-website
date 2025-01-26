@@ -16,9 +16,8 @@ const ContactPage = () => {
         <img src={contactImg} alt="canwill image" className='rounded-xl  lg:w-full lg:h-[500px] object-cover' />
       </div>
 
-      <div className='lg:flex justify-between items-center lg:w-[90%]  mx-auto p-5' >
-        <h1 className='text-2xl font-semibold mb-2 md:mb-5 lg:mb-0 md:text-4xl lg:text-5xl  text-center '>Get in Touch</h1>
-        <p className='text-center leading-7 lg:text-lg'>For all project inquiries, email canwilldesign@gmail.com with the subject NEW PROJECT</p>
+      <div className='pt-5 md:pb-5' >
+        <h1 className='text-2xl font-semibold md:mb-5 lg:mb-0 md:text-4xl lg:text-5xl text-center'>Get in Touch</h1>
       </div>
 
       <div className='flex flex-col justify-between gap-8 md:grid grid-cols-2 lg:grid-cols-3 md:gap-8 md:w-[90%] lg:w-[80%]  mx-auto my-10 '>
@@ -29,16 +28,16 @@ const ContactPage = () => {
             <div className='flex gap-3'>
               <img src={connect1} alt="" />
               <a
-                href="tel:+917942962885"
+                href="tel:+919821502078"
                 className="font-custom text-[#1E1E1E] text-opacity-75 tracking-wide"
               >
-                +91 919821502078
+                +91 9821502078
               </a>
             </div>
             <div className='flex gap-3 mt-2 mb-3'>
               <img src={connect2} alt="" />
               <a
-                href="mailto:contact.airbio@gmail.com"
+                href="mailto:canwilldesign@gmail.com"
                 className="font-custom text-[#1E1E1E] text-opacity-75 tracking-wide"
               >
                 canwilldesign@gmail.com

@@ -41,7 +41,7 @@ const testimonialData = [
 const Testimonials = () => {
   return (
     <div className="relative p-5 md:py-10 md:w-[90%] md:h-[450px] mx-auto mt-10">
-      <h2 className="text-center text-xl text-gray-700 mt-5 md:text-2xl font-semibold mb-6">" Meet Our Happy Customers / Just Don't take our word for it!!</h2>
+      <h2 className="text-center text-xl text-gray-700 mt-5 md:text-4xl font-semibold mb-6">Meet Our Happy Customers</h2>
 
       {/* Custom Navigation Buttons */}
       <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2  border-[#00B8B8]  p-2">
