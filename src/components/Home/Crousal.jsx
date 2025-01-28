@@ -7,6 +7,8 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import image1 from '../../assets/image1.webp'
 // import image2 from '../../assets/image2.webp'
 import image3 from '../../assets/image3.webp'
+import sofa from '../../assets/sofa.webp'
+import dhruv from '../../assets/dhruv.webp'
 import image4 from '../../assets/image4.webp'
 import image5 from '../../assets/image5.webp'
 import image6 from '../../assets/image6.webp'
@@ -21,7 +23,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const slides = [
     {
-        image: image1,
+        image: dhruv,
         text: "Iyer's House",
     },
     // {
@@ -37,25 +39,25 @@ const slides = [
         text: 'Powai Residence ',
     },
     {
-        image: image5,
+        image: sofa,
         text: 'Iyer House',
     },
-    {
-        image: image6,
-        text: 'Dhruv Residence',
-    },
+    // {
+    //     image: image6,
+    //     text: 'Dhruv Residence',
+    // },
     // {
     //     image: image7,
     //     text: "Cordelier's Cafe",
     // },
-    {
-        image: image9,
-        text: 'Dhruv Residence',
-    },
-    {
-        image: image10,
-        text: 'A Girly Dream',
-    },
+    // {
+    //     image: image9,
+    //     text: 'Dhruv Residence',
+    // },
+    // {
+    //     image: image10,
+    //     text: 'A Girly Dream',
+    // },
 
 ];
 

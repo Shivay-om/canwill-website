@@ -26,7 +26,7 @@ const Articals = () => {
                             {/* Add an overlay */}
                             <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
                         </div>
-                        <p className='w-[90%] px-5 text-center hover:text-[#00b8b8] mt-3 mb-1 mx-auto '>Our Beautiful 4BHK Shades Of Blues got featured on GoogHomes.</p>
+                        <p className='w-[90%] px-5 text-center hover:text-[#00b8b8] mt-3 mb-1 mx-auto '>Our Beautiful 4BHK Shades Of Blues got featured on GoodHomes.</p>
                         <h1 className='text-center text-sm text-gray-500'>GoodHomes, Apr 2022</h1>
                     </div>
 
@@ -42,8 +42,8 @@ const Articals = () => {
                             {/* Add an overlay */}
                             <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
                         </div>
-                        <p className='w-[90%] px-5 md:px-7 text-center hover:text-[#00b8b8]  mt-3 mb-1 mx-auto'>Traditional Style Designed 900sqft. Iyer Family Residence, featured on The ArchitectDiary.</p>
-                        <h1 className='text-center text-sm text-gray-500'>TheArchitectsDiary, Apr 2024</h1>
+                        <p className='w-[90%] px-5 md:px-7 text-center hover:text-[#00b8b8]  mt-3 mb-1 mx-auto'>Traditional Style Designed 900sqft. Iyer Family Residence, featured on The Architect'sDiary.</p>
+                        <h1 className='text-center text-sm text-gray-500'>TheArchitect'sDiary, Apr 2024</h1>
                     </div>
                 </div>
             </div>
