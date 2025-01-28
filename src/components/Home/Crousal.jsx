@@ -23,7 +23,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const slides = [
     {
-        image: dhruv,
+        image: image1,
         text: "Iyer's House",
     },
     // {
@@ -39,25 +39,25 @@ const slides = [
         text: 'Powai Residence ',
     },
     {
-        image: sofa,
+        image: image5,
         text: 'Iyer House',
     },
-    // {
-    //     image: image6,
-    //     text: 'Dhruv Residence',
-    // },
+    {
+        image: image6,
+        text: 'Dhruv Residence',
+    },
     // {
     //     image: image7,
     //     text: "Cordelier's Cafe",
     // },
-    // {
-    //     image: image9,
-    //     text: 'Dhruv Residence',
-    // },
-    // {
-    //     image: image10,
-    //     text: 'A Girly Dream',
-    // },
+    {
+        image: image9,
+        text: 'Dhruv Residence',
+    },
+    {
+        image: image10,
+        text: 'A Girly Dream',
+    },
 
 ];
 

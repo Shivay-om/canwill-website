@@ -12,7 +12,7 @@ const About = () => {
             <div className='p-5 md:p-10'>
                 <div>
                     <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />
-                    <h1 className='text-3xl md:text-4xl text-gray-700 font-semibold text-center mt-5 md:mt-10 mb-3'>About Us</h1>
+                    <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center mt-5 md:mt-10 mb-3'>About Us</h1>
 
                     <div className='my-5 lg:w-[85%] mx-auto'>
                         <h1 className='text-2xl text-center text-gray-700 md:text-3xl md:text-start tracking-wider font-semibold mb-3'>Ideology</h1>
@@ -43,7 +43,7 @@ const About = () => {
 
                 {/* founders */}
                 <div className=' my-10 '>
-                    <h1 className='text-3xl md:text-4xl text-gray-700 font-semibold text-center leading-relaxed my-5 mb-10 md:pt-5'>Meet our Founders</h1>
+                    <h1 className='text-3xl md:text-5xl text-gray-700 font-semibold text-center leading-relaxed my-5 mb-10 md:pt-5'>Meet our Founders</h1>
                     <div className='md:flex justify-around mb-10'>
                         <div className='md:w-[40%] flex justify-center'>
                             <img src={founder1} alt="" className='w-[300px] h-auto rounded-lg' />
