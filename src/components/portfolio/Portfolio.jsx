@@ -24,9 +24,9 @@ const Portfolio = () => {
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}
                                 className={`py-2 px-4 text-lg font-medium tracking-wider rounded-lg ${selectedCategory === category
-                                        ? "bg-[#00b8b8] text-white"
-                                        : "bg-gray-200 text-gray-700"
-                                    } hover:bg-[#00b8b8d1] hover:text-white transition-all`}
+                                    ? " text-[#00b8b8]"
+                                    : " text-gray-700"
+                                    } transition-all`}
                             >
                                 {category}
                             </button>
@@ -35,27 +35,29 @@ const Portfolio = () => {
                 </div>
 
                 {/* Cards */}
-                <div className="flex flex-wrap justify-center items-center mx-auto gap-6">
+                <div className="flex flex-wrap justify-center items-center mx-auto gap-2">
                     {filteredCards.map((data) => (
                         <div
                             key={data.id}
-                            className="relative w-full h-[300px] md:w-[378px] md:h-auto group overflow-hidden rounded-lg border-red-600"
+                            className="relative w-full h-[300px] md:w-[410px] md:h-auto group overflow-hidden border-red-600"
                         >
                             <img
                                 src={data.imageSrc}
                                 alt={data.altText}
                                 className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
                             />
-                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <h3 className="text-xl md:text-2xl font-bold tracking-wider">{data.title}</h3>
-                                <p className="mt-2 text-sm md:text-base">{data.description}</p>
-                                <Link
-                                    to={data.link}
-                                    className="mt-4 bg-[#00b8b8] hover:bg-[#00b8b8d1] text-white py-2 px-4 rounded-lg"
-                                >
-                                    Read More
-                                </Link>
-                            </div>
+                            <Link to={data.link}>
+                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <h3 className="text-xl md:text-2xl font-bold tracking-wider">{data.title}</h3>
+                                    <p className="mt-2 text-sm md:text-base">{data.description}</p>
+                                    {/* <Link
+                                        to={data.link}
+                                        className="mt-4 bg-[#00b8b8] hover:bg-[#00b8b8d1] text-white py-2 px-4 rounded-lg"
+                                    >
+                                        Read More
+                                    </Link> */}
+                                </div>
+                            </Link>
                         </div>
                     ))}
                 </div>

@@ -65,6 +65,7 @@ const Testimonials = () => {
           delay: 6000, // Auto-slide every 3 seconds
           disableOnInteraction: false,
         }}
+        speed={1000}
         pagination={{
           clickable: true,
           el: ".custom-pagination",

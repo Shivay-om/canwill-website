@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Autoplay,  } from "swiper/modules";
 import image1 from '../../assets/image1.webp'
 // import image2 from '../../assets/image2.webp'
 import image3 from '../../assets/image3.webp'
@@ -75,7 +75,7 @@ const Crousal = () => {
             </button> */}
 
             <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
+                modules={[Navigation, Pagination, Autoplay, ]}
                 navigation={{
                     prevEl: ".custom-prev",
                     nextEl: ".custom-next",
@@ -83,6 +83,8 @@ const Crousal = () => {
                 pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{ delay: 3000 }}
+                // effect="fade"
+                speed={1000}
                 className="mySwiper"
             >
                 {slides.map((slide, index) => (
