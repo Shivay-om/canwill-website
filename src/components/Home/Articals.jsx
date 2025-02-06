@@ -6,11 +6,11 @@ import article2 from '../../assets/image1.jpg'
 
 const Articals = () => {
     return (
-        <div className='md:h-auto md:px-10 pb-5'>
+        <div className='md:h-auto text-gray-700 md:px-10 pb-5'>
             <div>
                 <div className='flex justify-center items-center'>
                     <div className='w-10 border-b border-gray-700 border mr-2'></div>
-                    <h1 className='text-2xl md:text-4xl text-gray-700 font-semibold mb-5 mt-5 py-5 '>Magazine Features</h1>
+                    <h1 className='text-2xl md:text-4xl text-gray-700 tracking-wide mb-5 mt-5 py-5 '>Magazine Features</h1>
                 </div>
 
                 <div className='md:flex'>
@@ -26,8 +26,8 @@ const Articals = () => {
                             {/* Add an overlay */}
                             <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
                         </div>
-                        <p className='w-[90%] px-5 text-center hover:text-[#00b8b8] mt-3 mb-1 mx-auto '>Our Beautiful 4BHK Shades Of Blues got featured on GoodHomes.</p>
-                        <h1 className='text-center text-sm text-gray-500'>GoodHomes, Apr 2022</h1>
+                        <h1 className='w-[90%] px-5 text-center tracking-wide hover:text-[#00b8b8] mt-3 mb-1 mx-auto '>Our Beautiful 4BHK Shades Of Blues got featured on GoodHomes.</h1>
+                        <p className='text-center text-sm text-gray-500'>GoodHomes, Apr 2022</p>
                     </div>
 
                     <div className='md:p-5 md:w-[50%]'>
@@ -42,8 +42,8 @@ const Articals = () => {
                             {/* Add an overlay */}
                             <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
                         </div>
-                        <p className='w-[90%] px-5 md:px-7 text-center hover:text-[#00b8b8]  mt-3 mb-1 mx-auto'>Traditional Style Designed 900sqft. Iyer Family Residence, featured on The Architect'sDiary.</p>
-                        <h1 className='text-center text-sm text-gray-500'>TheArchitect'sDiary, Apr 2024</h1>
+                        <h1 className='w-[90%] px-5 md:px-7 text-center tracking-wide hover:text-[#00b8b8]  mt-3 mb-1 mx-auto'>Traditional Style Designed 900sqft. Iyer Family Residence, featured on The Architect'sDiary.</h1>
+                        <p className='text-center text-sm text-gray-500'>TheArchitect'sDiary, Apr 2024</p>
                     </div>
                 </div>
             </div>

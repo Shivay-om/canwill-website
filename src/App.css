@@ -1,12 +1,27 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap'); */
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 #root {
   /* max-width: 1280px;
   margin-left: auto;
   margin-right: auto; */
-  font-family: 'californian-fb-regular';
+  /* font-family: 'californian-fb-regular'; */
 }
+
+/* .roboto {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* .raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
 
 @font-face {
   font-family: 'californian-fb-regular';
@@ -15,8 +30,19 @@
   font-style: normal;
 }
 
-h1, h2 {
+@font-face {
+  font-family: 'calibri-regular';
+  src: url('./fonts/calibri-regular.ttf') format('truetype'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+h1, h2, li, Link {
   font-family: 'californian-fb-regular', sans-serif;
+}
+
+p, button {
+  font-family: 'calibri-regular', sans-serif;
 }
 
 input:-webkit-autofill {
@@ -47,21 +73,21 @@ input:-webkit-autofill {
   color: #00B8B8;
 }
 
-//* Customize the default bullet color */
-.swiper-pagination-bullet {
-  background-color: #00B8B8 !important; /* Primary color for the dots */
-  opacity: 0.5 !important; /* Slightly transparent */
-  width: 12px !important; /* Adjust the size of the dots */
+/* Customize the default bullet color */
+/* .swiper-pagination-bullet {
+  background-color: #00B8B8 !important; 
+  opacity: 0.5 !important;
+  width: 12px !important; 
   height: 12px !important;
-  margin: 0 5px !important; /* Add spacing between dots */
-}
+  margin: 0 5px !important; 
+} */
 
-/* Customize the active dot color */
-.swiper-pagination-bullet-active {
-  background-color: black  !important; /* Different shade for the active dot */
-  opacity: 1 !important; /* Fully opaque */
-  transform: scale(1.2) !important; /* Slightly larger active dot */
-  transition: transform 0.3s ease, background-color 0.3s ease !important; /* Smooth transition */
-}
+
+/* .swiper-pagination-bullet-active {
+  background-color: black  !important; 
+  opacity: 1 !important; 
+  transform: scale(1.2) !important; 
+  transition: transform 0.3s ease, background-color 0.3s ease !important;
+} */
 
 

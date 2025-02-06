@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className='bg-[#f7f7f7] p-10 mb-5'>
       <div className=' flex flex-col justify-center items-center'>
-        <h1 className='text-2xl text-center font-semibold'>Start a conversation about your project today!</h1>
+        <h1 className='text-2xl text-center tracking-wide font-medium'>Start a conversation about your project today!</h1>
 
         <Link to='/getQuote' onClick={() => {
           window.scrollTo(0, 0);

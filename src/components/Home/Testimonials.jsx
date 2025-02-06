@@ -41,7 +41,7 @@ const testimonialData = [
 const Testimonials = () => {
   return (
     <div className="relative p-5 md:py-10 md:w-[90%] md:h-[450px] mx-auto mt-10">
-      <h2 className="text-center text-xl text-gray-700 mt-5 md:text-4xl font-semibold mb-6">Meet Our Happy Customers</h2>
+      <h2 className="text-center text-xl text-gray-700 mt-5 md:text-4xl tracking-wide mb-6">Meet Our Happy Customers</h2>
 
       {/* Custom Navigation Buttons */}
       <button className="custom-prev absolute top-1/2 left-2 z-10 transform -translate-y-1/2  border-[#00B8B8]  p-2">
@@ -52,7 +52,7 @@ const Testimonials = () => {
       </button>
 
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Navigation, Autoplay]}
         // navigation={{
         //   prevEl: ".custom-prev",
         //   nextEl: ".custom-next",
@@ -90,8 +90,8 @@ const Testimonials = () => {
         {testimonialData.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
             <div className="flex flex-col items-center md:w-[80%] mx-auto  md:p-4 md:px-6 rounded-lg ">
-              <p className="text-center md:text-xl  my-6 ">{testimonial.text}</p>
-              <p className=" text-gray-500 md:text-2xl mb-4">{testimonial.Location}</p>
+              <p className="text-center text-gray-700 md:text-xl my-6 ">{testimonial.text}</p>
+              <p className=" text-gray-400 italic md:text-xl mb-4">{testimonial.Location}</p>
             </div>
           </SwiperSlide>
         ))}

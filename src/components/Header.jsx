@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full shadow-lg">
+    <header className="w-full text-gray-700 shadow-lg">
       <div className=" mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <div className="text-lg font-bold">
@@ -56,16 +56,16 @@ const Header = () => {
           </div>
 
           <nav className="flex flex-col px-10 py-6 ">
-            <Link to="/" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/" onClick={toggleMenu} className="block py-2 font-custom tracking-wide text-xl hover:text-[#00b8b8]">
               Home
             </Link>
-            <Link to="/about" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/about" onClick={toggleMenu} className="block py-2 font-custom tracking-wide text-xl hover:text-[#00b8b8]">
               About Us
             </Link>
-            <Link to="/portfolio" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/portfolio" onClick={toggleMenu} className="block py-2 font-custom tracking-wide text-xl  hover:text-[#00b8b8]">
               Portfolio
             </Link>
-            <Link to="/contact" onClick={toggleMenu} className="block py-2  hover:text-[#00b8b8]">
+            <Link to="/contact" onClick={toggleMenu} className="block py-2 font-custom tracking-wide text-xl hover:text-[#00b8b8]">
               Contact Us
             </Link>
           </nav>

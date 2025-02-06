@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-      <div className=' my-5 px-10 pt-10 md:flex '>
+      <div className=' my-5 px-10 text-gray-700 pt-10 md:flex '>
         <div className='md:w-[60%] items-center border-b border-b-[#00b8b8] '>
           <div className='pt-5'>
             <div className='md:flex justify-between mb-6 '>
@@ -49,8 +49,8 @@ const Footer = () => {
               </div>
 
               <div className='text-center md:text-end tracking-wider pt-5 md:mr-5 '>
-                <div className='mb-3'>Canwill Design Associates, E-04,<br /> Gokul Residency, Thakur <br /> Village, Kandivali(E),<br /> Mumbai - 400101</div>
-                <div>Contact - +91 98215 02078</div>
+                <h1 className='mb-3'>Canwill Design Associates, E-04,<br /> Gokul Residency, Thakur <br /> Village, Kandivali(E),<br /> Mumbai - 400101</h1>
+                <h1>Contact - +91 98215 02078</h1>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faWhatsapp} size='xl' className='text-[#00b8b8]' />
         </div>
 
-        <h1 className='pb-4 text-center md:text-end'>Copyright © 2024 Canwill design. All rights reserved.</h1>
+        <h1 className='pb-4 text-center tracking-wide md:text-end'>Copyright © 2024 Canwill design. All rights reserved.</h1>
       </div>
     </>
   )

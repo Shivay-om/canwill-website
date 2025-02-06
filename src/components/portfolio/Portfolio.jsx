@@ -23,9 +23,9 @@ const Portfolio = () => {
                             <button
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}
-                                className={`py-2 px-4 text-lg font-medium tracking-wider rounded-lg ${selectedCategory === category
+                                className={`py-2 px-4 text-lg md:text-xl font-custom font-medium tracking-wider rounded-lg ${selectedCategory === category
                                     ? " text-[#00b8b8]"
-                                    : " text-gray-700"
+                                    : " text-gray-700 hover:text-[#00b8b8]"
                                     } transition-all`}
                             >
                                 {category}
@@ -48,7 +48,7 @@ const Portfolio = () => {
                             />
                             <Link to={data.link}>
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <h3 className="text-xl md:text-2xl font-bold tracking-wider">{data.title}</h3>
+                                    <h1 className="text-xl md:text-2xl font-medium tracking-wider">{data.title}</h1>
                                     <p className="mt-2 text-sm md:text-base">{data.description}</p>
                                     {/* <Link
                                         to={data.link}

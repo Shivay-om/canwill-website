@@ -80,7 +80,7 @@ const Crousal = () => {
                     prevEl: ".custom-prev",
                     nextEl: ".custom-next",
                 }}
-                pagination={{ clickable: true }}
+                // pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{ delay: 3000 }}
                 // effect="fade"
@@ -97,8 +97,8 @@ const Crousal = () => {
                             className="w-full h-full lg:h-screen object-cover"
                         />
                         {/* Text Overlay */}
-                        <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center -bottom-2 md:bottom-0 text-white text-2xl font-bold animate-slideIn  border-green-300">
-                            <h1 className='bg-opacity-30 text-sm md:text-2xl px-6 md:py-1 tracking-wider rounded-md drop-shadow-2xl '>{slide.text}</h1>
+                        <div className="absolute inset-0  bg-opacity-50 flex items-end pb-10 justify-center -bottom-2 md:bottom-0 text-white text-2xl animate-slideIn  border-green-300">
+                            <h1 className='bg-opacity-30 text-sm md:text-3xl px-6 md:py-1 tracking-wider rounded-md drop-shadow-2xl '>{slide.text}</h1>
                         </div>
                     </SwiperSlide>
                 ))}

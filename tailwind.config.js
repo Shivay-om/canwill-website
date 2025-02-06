@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ['californian-fb-regular',],
+        second: ['calibri-regular',],
       },
       keyframes: {
         slideIn: {

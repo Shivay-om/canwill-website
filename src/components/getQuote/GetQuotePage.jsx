@@ -8,12 +8,12 @@ const GetQuotePage = () => {
   return (
     <div className='p-5 md:p-10 lg:mt-7'>
       <div className='w-full h-full md:flex justify-between gap-10 '>
-        <div className='w-full md:w-[50%] border'>
+        <div className='w-full md:w-[50%]'>
           <img src={getQuote} alt="" className='w-full h-full lg:h-[705px] object-cover lg:object-bottom' />
         </div>
 
         <div className="mx-auto w-full md:w-[50%] h-full py-10 md:py-0 bg-white rounded-lg">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center md:text-start mb-6 lg:mb-10">Get a Free Consultation</h1>
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-medium text-center md:text-start mb-6 lg:mb-10">Get a Free Consultation</h1>
 
           <form>
             <h1 className='md:text-xl font-medium mb-5 text-gray-700'>Tell us about your home</h1>

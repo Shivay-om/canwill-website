@@ -10,11 +10,11 @@ import icon4 from '../../assets/execution.png'
 
 const Process = () => {
     return (
-        <div className='md:h-auto px-10 pb-8'>
+        <div className='md:h-auto text-gray-700 px-10 pb-8'>
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex justify-center items-center'>
                     <div className='w-10 border-b border-gray-700 border mr-2'></div>
-                    <h1 className='text-2xl md:text-4xl font-custom font-semibold mt-5 mb-5 text-gray-700'>Our Process</h1>
+                    <h1 className='text-2xl md:text-4xl tracking-wide mt-5 mb-5 text-gray-700'>Our Process</h1>
                 </div>
 
                 {/* <div className='my-5'>
@@ -53,12 +53,12 @@ const Process = () => {
                         <img src={icon1} alt="" className="w-[90px] h-[90px]" />
                     </div>
                     <div className='flex justify-between gap-5 pb-2 max-w-[263px]  border-[#00B8B8] '>
-                        <div className='mt-4'>
+                        <div className=''>
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>01</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Discovery</h1>
-                            <p className=' w-[90%] mb-5 md:mb-0'>We start by understanding your vision, preferences, and needs.</p>
+                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Discovery</h1>
+                            <p className=' w-[90%] text-lg mb-5 md:mb-0'>We start by understanding your vision, preferences, and needs.</p>
                         </div>
                     </div>
 
@@ -71,8 +71,8 @@ const Process = () => {
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>02</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Design</h1>
-                            <p className='w-[90%] mb-5'>Our creative team develops detailed concepts and mood boards to bring your ideas to life. </p>
+                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Design</h1>
+                            <p className='w-[90%] text-lg mb-5'>Our creative team develops detailed concepts and mood boards to bring your ideas to life. </p>
                         </div>
                     </div>
 
@@ -85,8 +85,8 @@ const Process = () => {
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>03</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Execution</h1>
-                            <p className='w-[90%] mb-5 md:mb-0'>From sourcing materials to managing timelines, we ensure every detail aligns with the design.</p>
+                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Execution</h1>
+                            <p className='w-[90%] text-lg  mb-5 md:mb-0'>From sourcing materials to managing timelines, we ensure every detail aligns with the design.</p>
                         </div>
                     </div>
 
@@ -98,8 +98,8 @@ const Process = () => {
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>04</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-lg font-semibold text-gray-700'>Delivery</h1>
-                            <p className='w-[90%] mb-5 md:mb-0'>The result is a space that feels like it was always meant to be yours.</p>
+                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Delivery</h1>
+                            <p className='w-[90%] text-lg mb-5 md:mb-0'>The result is a space that feels like it was always meant to be yours.</p>
                         </div>
                     </div>
                 </div>

@@ -14,20 +14,20 @@ const ContactPage = () => {
   return (
     <div>
       <div className='p-5 md:p-10 md:flex'>
-        <div className=' md:w-[60%] md:p-10'>
-          <div className='text-2xl md:text-4xl lg:text-5xl font-semibold text-center md:text-start mb-5 md:mb-8'>Get in Touch</div>
+        <div className=' md:w-[60%] text-gray-700 md:p-10'>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl font-medium tracking-wide text-center md:text-start mb-5 md:mb-8'>Get in Touch</h1>
           <div className=' border-black lg:flex'>
             <div className='md:w-[50%]'>
-              <h1 className='text-center md:text-start mb-5  md:text-xl'>for any enquiries, or just to say hello, get in touch and contact us.</h1>
+              <h1 className='text-center md:text-start mb-5 tracking-wide  md:text-xl'>for any enquiries, or just to say hello, get in touch and contact us.</h1>
             </div>
             <div className='flex flex-col md:flex-row flex-wrap justify-center md:w-[50%] md:h-auto gap-5 md:gap-10 border-green-400'>
               <div className='flex flex-col justify-center my-5 md:my-0 md:w-[180px] md:justify-start md:items-start items-center '>
-                <h1 className='mb-3 text-[#1E1E1E] text-opacity-75 tracking-wide'>New projects</h1>
-                <p>example@gmail.com</p>
+                <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>New projects</h1>
+                <p className='tracking-wide'>example@gmail.com</p>
               </div>
 
               <div className='flex flex-col justify-center md:items-start items-center'>
-                <h1 className='mb-3 text-[#1E1E1E] text-opacity-75 tracking-wide'>Project enquiries</h1>
+                <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Project enquiries</h1>
                 <a
                   href="mailto:canwilldesign@gmail.com"
                   className="font-custom tracking-wide mb-3"
@@ -43,12 +43,12 @@ const ContactPage = () => {
               </div>
 
               <div className='flex flex-col justify-center my-5 md:my-0  md:w-[180px] md:items-start items-center'>
-                <h1 className='mb-3 text-[#1E1E1E] text-opacity-75 tracking-wide'>Address</h1>
-                <p className='text-center md:text-start'>Canwill Design Associates, E-04, Gokul Residency, Thakur Village, Kandivali(E), Mumbai - 40010</p>
+                <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Address</h1>
+                <p className='text-center tracking-wide md:text-start'>Canwill Design Associates, E-04, Gokul Residency, Thakur Village, Kandivali(E), Mumbai - 40010</p>
               </div>
 
               <div className='flex flex-col justify-center md:w-[180px] md:justify-start md:items-start items-center '>
-                <h1 className='mb-3 text-[#1E1E1E] text-opacity-75 tracking-wide'>Follow socials</h1>
+                <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Follow socials</h1>
                 <div className='font-custom flex justify-center mt-4 gap-5 '>
                   <a href="" target="_blank" rel="noopener noreferrer">
                     <img src={social1} alt="Facebook" className='w-[28px] h-[28px] ' />
