@@ -21,11 +21,6 @@ const ContactPage = () => {
               <h1 className='text-center md:text-start mb-5 tracking-wide  md:text-xl'>for any enquiries, or just to say hello, get in touch and contact us.</h1>
             </div>
             <div className='flex flex-col md:flex-row flex-wrap justify-center md:w-[50%] md:h-auto gap-5 md:gap-10 border-green-400'>
-              <div className='flex flex-col justify-center my-5 md:my-0 md:w-[180px] md:justify-start md:items-start items-center '>
-                <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>New projects</h1>
-                <p className='tracking-wide'>example@gmail.com</p>
-              </div>
-
               <div className='flex flex-col justify-center md:items-start items-center'>
                 <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Project enquiries</h1>
                 <a

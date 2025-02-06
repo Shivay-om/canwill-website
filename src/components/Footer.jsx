@@ -16,7 +16,9 @@ const Footer = () => {
           <div className='pt-5'>
             <div className='md:flex justify-between mb-6 '>
               <div className='flex justify-center'>
+                <Link to="/">
                 <img src={logo} alt="" className='w-auto h-[160px] ' />
+                </Link>
               </div>
 
 
@@ -50,7 +52,12 @@ const Footer = () => {
 
               <div className='text-center md:text-end tracking-wider pt-5 md:mr-5 '>
                 <h1 className='mb-3'>Canwill Design Associates, E-04,<br /> Gokul Residency, Thakur <br /> Village, Kandivali(E),<br /> Mumbai - 400101</h1>
+                <a
+                  href="tel:+919821502078"
+                  className="tracking-wide"
+                >
                 <h1>Contact - +91 98215 02078</h1>
+                </a>
               </div>
             </div>
           </div>

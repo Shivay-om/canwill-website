@@ -16,7 +16,7 @@ const cardData = [
       description: 'Discover luxury and comfort at Dani Hotels.',
     //   link: '/portfolio/Dani-hotels',
       link: "/portfolio/Dani-hotels",
-      category: "Residential",
+      category: "Architecture",
     },
     {
       imageSrc: portfolio2,
@@ -25,7 +25,7 @@ const cardData = [
       description: 'Learn more about our exciting projects.',
     //   link: '/portfolio/another-project',
       link: "/portfolio/residential1",
-      category: "Commercial",
+      category: "Architecture",
     },
     {
       imageSrc: portfolio3,
@@ -34,7 +34,7 @@ const cardData = [
       description: 'Explore this sample project in detail.',
     //   link: '/portfolio/sample-project',
       link: "/portfolio/labs1",
-      category: "Labs",
+      category: "Residential",
     },
     {
         imageSrc: portfolio4,
@@ -52,7 +52,7 @@ const cardData = [
         description: 'Explore this sample project in detail.',
         // link: '/portfolio/sample-project',
         link: "/portfolio/architecture1",
-        category: "Architecture",
+        category: "Residential",
     },
     {
         imageSrc: portfolio6,
@@ -61,7 +61,7 @@ const cardData = [
         description: 'Explore this sample project in detail.',
         // link: '/portfolio/sample-project',
         link: "/portfolio/residential1",
-        category: "Labs",
+        category: "Commercial",
     },
     {
         imageSrc: portfolio7,
@@ -70,7 +70,7 @@ const cardData = [
         description: 'Explore this sample project in detail.',
         // link: '/portfolio/sample-project',
         link: "/portfolio/architecture1",
-        category: "Architecture",
+        category: "Labs",
     },
     {
         imageSrc: portfolio8,
@@ -79,7 +79,7 @@ const cardData = [
         description: 'Explore this sample project in detail.',
         // link: '/portfolio/sample-project',
         link: "/portfolio/residential1",
-        category: "Labs",
+        category: "Commercial",
     },
     {
         imageSrc: portfolio9,
@@ -88,7 +88,7 @@ const cardData = [
         description: 'Explore this sample project in detail.',
         // link: '/portfolio/sample-project',
         link: "/portfolio/residential1",
-        category: "Labs",
+        category: "Residential",
     },
   ];
 
