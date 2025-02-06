@@ -30,13 +30,13 @@ const ContactPage = () => {
                 <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Project enquiries</h1>
                 <a
                   href="mailto:canwilldesign@gmail.com"
-                  className="font-custom tracking-wide mb-3"
+                  className=" tracking-wide mb-3"
                 >
                   canwilldesign@gmail.com
                 </a>
                 <a
                   href="tel:+919821502078"
-                  className="font-custom tracking-wide"
+                  className="tracking-wide"
                 >
                   +91 9821502078
                 </a>

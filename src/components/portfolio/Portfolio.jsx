@@ -46,7 +46,7 @@ const Portfolio = () => {
                                 alt={data.altText}
                                 className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
                             />
-                            <Link to={data.link}>
+                            <Link>
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <h1 className="text-xl md:text-2xl font-medium tracking-wider">{data.title}</h1>
                                     <p className="mt-2 text-sm md:text-base">{data.description}</p>

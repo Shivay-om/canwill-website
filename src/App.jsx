@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" element={<ContactPage/>} />
 
         <Route path="/portfolio" element={<Portfolio />}/>
-        <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
+        {/* <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} /> */}
 
         <Route path="/getQuote" element={<GetQuotePage/>} />
         <Route path="/thank-you" element={<ThankYouPage/>} />
