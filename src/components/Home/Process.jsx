@@ -33,17 +33,17 @@ const Process = () => {
                     </div>
                 </div> */}
 
-                <div className="hidden md:w-[90%] md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5 w-full p-5 ">
-                    <div className="flex justify-center items-center p-5 ">
+                <div className="hidden md:flex justify-center mb-5  mx-auto">
+                    <div className="flex w-[263px] justify-center items-center p-5 ">
                         <img src={icon1} alt="" className="w-[90px] h-[90px]" />
                     </div>
-                    <div className="flex justify-center items-center p-5 ">
+                    <div className="flex w-[263px] justify-center items-center p-5 ">
                         <img src={icon2} alt="" className="w-[70px] h-[70px]" />
                     </div>
-                    <div className="flex justify-center items-center p-5 ">
+                    <div className="flex w-[263px] justify-center items-center p-5 ">
                         <img src={icon3} alt="" className="w-[70px] h-[70px]" />
                     </div>
-                    <div className="flex justify-center items-center p-5 ">
+                    <div className="flex w-[263px] justify-center items-center p-5">
                         <img src={icon4} alt="" className="w-[70px] h-[70px]" />
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Process = () => {
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>01</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Discovery</h1>
+                            <h1 className='mb-3 text-xl tracking-wide text-gray-700'>Discovery</h1>
                             <p className=' w-[90%] text-lg mb-5 md:mb-0'>We start by understanding your vision, preferences, and needs.</p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Process = () => {
                             <p className='border border-[#00B8B8] text-gray-700 p-1 px-2 rounded-full ml-4'>02</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Design</h1>
+                            <h1 className='mb-3 text-xl  tracking-wide text-gray-700'>Design</h1>
                             <p className='w-[90%] text-lg mb-5'>Our creative team develops detailed concepts and mood boards to bring your ideas to life. </p>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ const Process = () => {
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>03</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Execution</h1>
+                            <h1 className='mb-3 text-xl  tracking-wide text-gray-700'>Execution</h1>
                             <p className='w-[90%] text-lg  mb-5 md:mb-0'>From sourcing materials to managing timelines, we ensure every detail aligns with the design.</p>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Process = () => {
                             <p className='border border-[#00b8b8] text-gray-700 p-1 px-2 rounded-full ml-4'>04</p>
                         </div>
                         <div>
-                            <h1 className='mb-3 text-xl font-semibold tracking-wide text-gray-700'>Delivery</h1>
+                            <h1 className='mb-3 text-xl tracking-wide text-gray-700'>Delivery</h1>
                             <p className='w-[90%] text-lg mb-5 md:mb-0'>The result is a space that feels like it was always meant to be yours.</p>
                         </div>
                     </div>

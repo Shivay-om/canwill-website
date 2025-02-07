@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay,  } from "swiper/modules";
 import image1 from '../../assets/image1.webp'
-// import image2 from '../../assets/image2.webp'
+import image2 from '../../assets/image2.webp'
 import image3 from '../../assets/image3.webp'
 import sofa from '../../assets/sofa.webp'
 import dhruv from '../../assets/dhruv.webp'
@@ -26,10 +26,10 @@ const slides = [
         image: image1,
         text: "Iyer's House",
     },
-    // {
-    //     image: image2,
-    //     text: "Cordelier's Cafe",
-    // },
+    {
+        image: image2,
+        text: "Cordelier's Cafe",
+    },
     {
         image: image3,
         text: 'Dhruv Residence',
@@ -83,7 +83,6 @@ const Crousal = () => {
                 // pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{ delay: 3000 }}
-                // effect="fade"
                 speed={1000}
                 className="mySwiper"
             >

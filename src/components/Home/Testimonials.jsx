@@ -62,7 +62,7 @@ const Testimonials = () => {
         slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 6000, // Auto-slide every 3 seconds
+          delay: 6000, 
           disableOnInteraction: false,
         }}
         speed={1000}
@@ -75,7 +75,6 @@ const Testimonials = () => {
             navigation: true,
           },
           0: {
-            // Disable navigation for screens below 1024px
             navigation: false,
           },
           640: {

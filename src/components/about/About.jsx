@@ -14,7 +14,7 @@ const About = () => {
                     <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />
                     <h1 className='text-3xl md:text-5xl text-gray-700 text-center mt-5 md:mt-10 mb-3'>About Us</h1>
 
-                    <div className='my-5 text-xl tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second'>
+                    <div className='my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second'>
                         {/* <h1 className='text-2xl text-center text-gray-700 md:text-2xl tracking-wider font-semibold mb-3'>Ideology</h1> */}
                         <p className='text-justify'>Welcome to Canwill Design Associates, where creativity meets functionality, and every space tells a story. We are dedicated to creating timeless and durable designs that stand the test of time.</p>
                         <p className='mt-3 text-justify'>With over two decades of industry expertise, we believe that great design goes beyond aesthetics—it’s about crafting spaces that resonate with your personality, meet your needs, and inspire your everyday life. Whether it’s a cozy home, a luxurious retreat, or a high-tech laboratory, we bring a unique blend of artistic vision and practical expertise to every project we undertake.</p>

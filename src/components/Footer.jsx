@@ -1,5 +1,5 @@
 import React from 'react'
-import footer from '../assets/footer.jpg'
+import footer from '../assets/footer.webp'
 import logo from '../assets/logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faLocationDot, } from '@fortawesome/free-solid-svg-icons'
@@ -23,7 +23,7 @@ const Footer = () => {
 
 
               <div className=' md:hidden my-8'>
-                <h1 className='text-2xl text-center font-semibold mb-5 '>Pages</h1>
+                <h1 className='text-2xl text-center mb-5 '>Pages</h1>
                 <div className="flex flex-col md:flex-row  gap-6 text-center md:text-left">
                   <div>
                     <ul className="space-y-2">
@@ -51,12 +51,12 @@ const Footer = () => {
               </div>
 
               <div className='text-center md:text-end tracking-wider pt-5 md:mr-5 '>
-                <h1 className='mb-3'>Canwill Design Associates, E-04,<br /> Gokul Residency, Thakur <br /> Village, Kandivali(E),<br /> Mumbai - 400101</h1>
+                <p className='mb-3'>Canwill Design Associates, E-04,<br /> Gokul Residency, Thakur <br /> Village, Kandivali(E),<br /> Mumbai - 400101</p>
                 <a
                   href="tel:+919821502078"
                   className="tracking-wide"
                 >
-                <h1>Contact - +91 98215 02078</h1>
+                <p>Contact - +91 98215 02078</p>
                 </a>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className='md:w-[40%] hidden md:flex px-10 pt-3  border-b border-l border-b-[#00b8b8] border-l-[#00b8b8]'>
           <div className='w-[30%] '>
-            <h1 className='text-2xl font-semibold mb-5 '>Pages</h1>
+            <h1 className='text-2xl mb-5 '>Pages</h1>
             <div className="flex flex-col md:flex-row  gap-6 text-center md:text-left">
               <div>
                 <ul className="space-y-2">
@@ -99,7 +99,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faWhatsapp} size='xl' className='text-[#00b8b8]' />
         </div>
 
-        <h1 className='pb-4 text-center tracking-wide md:text-end'>Copyright © 2024 Canwill design. All rights reserved.</h1>
+        <p className='pb-4 text-center tracking-wide md:text-end'>Copyright © 2024 Canwill design. All rights reserved.</p>
       </div>
     </>
   )
