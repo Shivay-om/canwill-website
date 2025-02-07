@@ -39,7 +39,7 @@ const About = () => {
                             <img src={founder1} alt="" className='w-[300px] h-auto rounded-lg' />
                         </div>
 
-                        <div className='md:w-[60%] flex flex-col justify-center '>
+                        <div className='md:w-[60%] tracking-wide flex flex-col justify-center '>
                             <h1 className='text-3xl text-gray-700 text-center tracking-wide md:text-start font-medium my-5 md:mb-8'>Taruni Kelkar
                             </h1>
                             <p className=' text-justify text-gray-700 text-lg md:w-[90%]'>Taruni is a highly experienced architect and an alumna of the prestigious Sir J.J. College of Architecture (1992), known for her keen eye for aesthetics and impeccable sense of proportions. Her work is characterized by a signature blend of elegance, innovation, and functionality, with meticulous attention to detail and spatial harmony. Whether designing minimalist homes or vibrant commercial spaces, she thoughtfully integrates textures, materials, and colors to create environments that are both visually stunning and deeply functional. Taruni’s passion for design and experience in the field make her a trusted and sought-after professional.
@@ -47,7 +47,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className='md:flex justify-around pt-12'>
+                    <div className='md:flex tracking-wide justify-around pt-12'>
                         <div className='md:w-[40%] flex justify-center'>
                             <img src={founder2} alt="" className='w-[300px] h-auto rounded-lg' />
                         </div>
@@ -63,19 +63,19 @@ const About = () => {
             </div>
 
             <div className=' px-5 md:pb-5 mb-10'>
-                <div className='lg:w-[85%] mx-auto'>
+                <div className='lg:w-[85%] tracking-wide mx-auto'>
                     <h1 className='text-2xl text-center text-gray-700 md:text-3xl tracking-wider font-medium mb-3'>What Sets Us Apart</h1>
                     <p className='text-justify text-lg text-gray-700 md:text-center'> <span className='font-semibold tracking-wide'>Custom Solutions:</span> Every project is a fresh canvas. We pride ourselves on bespoke designs that reflect your individuality.</p>
                     <p className='text-justify text-lg text-gray-700 md:text-center'> <span className='font-semibold tracking-wide'>Attention to Detail: </span>From concept to completion, we obsess over the little things that make a big difference.</p>
                 </div>
 
-                <div className=' my-5 pt-5 lg:w-[85%] mx-auto'>
+                <div className=' my-5 tracking-wide pt-5 lg:w-[85%] mx-auto'>
                     <h1 className='text-2xl text-center text-gray-700 md:text-3xl tracking-wider font-medium mb-3'>Let’s Create Together</h1>
                     <p className='text-justify text-lg text-gray-700 lg:w-[75%] mx-auto'>Whether you’re starting from scratch or revamping an existing space, Canwill Design is here to transform your ideas into reality. Let’s build something extraordinary.</p>
                 </div>
             </div>
 
-            <div className='bg-[#f7f7f7] p-10 mb-5'>
+            <div className='bg-[#f7f7f7] tracking-wide p-10 mb-5'>
                 <div className=' flex flex-col justify-center items-center'>
                     <h1 className='text-2xl text-center font-medium tracking-wide'>Start a conversation about your project today!</h1>
                     <button className='mt-8 border border-black rounded-sm hover:bg-black hover:text-white bg-transparent bg-opacity-50 p-2 px-4'>Connect With Us
