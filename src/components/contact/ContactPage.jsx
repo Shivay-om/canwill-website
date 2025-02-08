@@ -28,7 +28,7 @@ const ContactPage = () => {
                   href="mailto:canwilldesign@gmail.com"
                   className=" tracking-wide mb-3"
                 >
-                  canwilldesign@gmail.com
+                  associatescanwilldesign@gmail.com
                 </a>
                 <a
                   href="tel:+919821502078"
