@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import dani from '../../assets/dani.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import cardData from './PortfolioData'
+import Footer from '../Footer';
 
 
 
@@ -14,7 +15,7 @@ const Portfolio = () => {
             : cardData.filter((card) => card.category === selectedCategory);
 
     return (
-        <div>
+        <>        <div>
             <div className="p-5 md:p-10">
                 {/* Category Buttons */}
                 <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -46,7 +47,7 @@ const Portfolio = () => {
                                 alt={data.altText}
                                 className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
                             />
-                            <Link>
+                            <Link to={data.link}>
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <h1 className="text-xl md:text-2xl font-medium tracking-wider">{data.title}</h1>
                                     <p className="mt-2 text-sm md:text-base">{data.description}</p>
@@ -64,6 +65,10 @@ const Portfolio = () => {
             </div>
 
         </div>
+        
+        <Footer/>
+        </>
+
     )
 }
 

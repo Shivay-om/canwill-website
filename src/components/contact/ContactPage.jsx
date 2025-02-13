@@ -2,16 +2,18 @@ import React from 'react'
 import contactImg from '../../assets/contactImg.jpg'
 import social1 from '../../assets/social1.svg'
 import social2 from '../../assets/social2.svg'
-import social3 from '../../assets/social3.svg'
+import social3 from '../../assets/instagram.png'
 import connect1 from '../../assets/connect1.svg'
 import connect2 from '../../assets/connect2.svg'
 import contact from '../../assets/contact.svg'
 import location from '../../assets/Icon.svg'
 import social from '../../assets/Social.svg'
 import pot from '../../assets/pot.webp'
+import Footer from '../Footer'
 
 const ContactPage = () => {
   return (
+    <>
     <div>
       <div className='p-5 md:p-10 md:flex'>
         <div className=' md:w-[60%] text-gray-700 md:p-10'>
@@ -46,14 +48,14 @@ const ContactPage = () => {
               <div className='flex flex-col justify-center md:justify-start md:items-start'>
                 <h1 className='mb-3 text-[#1E1E1E] text-lg text-center text-opacity-75 tracking-wider'>Follow socials</h1>
                 <div className='font-custom flex justify-center mt-4 gap-5 '>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/share/15uYsAcb3g/" target="_blank" rel="noopener noreferrer">
                     <img src={social1} alt="Facebook" className='w-[28px] h-[28px] ' />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a href="https://api.whatsapp.com/send?phone=9821502078" target="_blank" rel="noopener noreferrer">
                     <img src={social2} alt="WhatsApp" className='w-[30px] h-[30px] ' />
                   </a>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    <img src={social3} alt="linkedin" className='w-[28px] h-[28px] ' />
+                  <a href="https://www.instagram.com/canwilldesign/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer">
+                    <img src={social3} alt="Instagram" className='w-[28px] h-[28px] ' />
                   </a>
                 </div>
               </div>
@@ -148,6 +150,9 @@ const ContactPage = () => {
       </div>
 
     </div >
+
+    <Footer />
+    </>
   )
 }
 

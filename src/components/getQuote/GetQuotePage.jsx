@@ -1,11 +1,13 @@
 import React from 'react'
 import getQuote from '../../assets/getQuote.jpg'
 import { Link } from 'react-router-dom';
+import Footer from '../Footer';
 
 const GetQuotePage = () => {
   const cities = ['Banglore', 'Hyderabad', 'Chennai', 'Mumbai', 'Navi Mumbai', 'Thane', 'Mysore', "Pune", 'Others'];
 
   return (
+    <>
     <div className='p-5 md:p-10 lg:mt-7'>
       <div className='w-full h-full md:flex justify-between gap-10 '>
         <div className='w-full md:w-[50%]'>
@@ -149,7 +151,12 @@ const GetQuotePage = () => {
           </form>
         </div>
       </div>
+
+      
     </div>
+
+    <Footer />
+    </>
   )
 }
 

@@ -4,16 +4,26 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay,  } from "swiper/modules";
-import image1 from '../../assets/image1.webp'
-import image2 from '../../assets/image2.webp'
-import image3 from '../../assets/image3.webp'
-import sofa from '../../assets/sofa.webp'
-import dhruv from '../../assets/dhruv.webp'
-import image4 from '../../assets/image4.webp'
-import image5 from '../../assets/image5.webp'
-import image6 from '../../assets/image6.webp'
+import image1 from '../../assets/image1.jpg'
+import image2 from '../../assets/Cafe.png'
+import image3 from '../../assets/image3.jpg'
+import image4 from '../../assets/image4.jpg'
+import image5 from '../../assets/image5.jpg'
+import image6 from '../../assets/image6.jpg'
+// import image7 from '../../assets/image7.jpg'
+// import image8 from '../../assets/image8.jpg'
+import image9 from '../../assets/image9.jpg'
+
+// import image1 from '../../assets/image1.webp'
+// import image2 from '../../assets/image2.webp'
+// import image3 from '../../assets/image3.webp'
+// import sofa from '../../assets/sofa.webp'
+// import dhruv from '../../assets/dhruv.webp'
+// import image4 from '../../assets/image4.webp'
+// import image5 from '../../assets/image5.webp'
+// import image6 from '../../assets/image6.webp'
 // import image7 from '../../assets/image7.webp'
-import image9 from '../../assets/image9.webp'
+// import image9 from '../../assets/image9.webp'
 import image10 from '../../assets/image10.webp'
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
@@ -83,7 +93,7 @@ const Crousal = () => {
                 // pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{ delay: 3000 }}
-                speed={1000}
+                speed={1500}
                 className="mySwiper"
             >
                 {slides.map((slide, index) => (

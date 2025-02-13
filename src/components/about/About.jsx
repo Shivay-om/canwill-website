@@ -4,6 +4,7 @@ import founder1 from '../../assets/Taruni.webp'
 import founder2 from '../../assets/sir.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../Footer';
 
 
 const About = () => {
@@ -83,6 +84,8 @@ const About = () => {
                     </button>
                 </div>
             </div>
+
+            <Footer/>
         </>
     )
 }
