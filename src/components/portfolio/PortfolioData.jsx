@@ -7,6 +7,8 @@ import portfolio6 from '../../assets/portfolio6.jpg'
 import portfolio7 from '../../assets/portfolio7.jpg'
 import portfolio8 from '../../assets/cordelia/cordeliaCover.webp'
 import portfolio9 from '../../assets/portfolio9.jpg'
+import portfolio10 from '../../assets/dhruv/dhruvCover.webp'
+
 
 const cardData = [
     {
@@ -75,7 +77,7 @@ const cardData = [
     {
         imageSrc: portfolio8,
         altText: 'Sample Image',
-        title: "cordelier's Cafe",
+        title: "Cordelier's Cafe",
         description: 'Mumbai',
         // link: '/portfolio/sample-project',
         link: "/portfolio/cordelia",
@@ -87,9 +89,18 @@ const cardData = [
         title: 'Iyer’s House',
         description: 'Mumbai',
         // link: '/portfolio/sample-project',
-        link: "/portfolio/residential1",
+        link: "/portfolio/iyer-house",
         category: "Residential",
     },
+    {
+      imageSrc: portfolio10,
+      altText: 'Sample Image',
+      title: 'Dhruv Residence',
+      description: 'Mumbai',
+      // link: '/portfolio/sample-project',
+      link: "/portfolio/dhruv-residence",
+      category: "Residential",
+  },
   ];
 
 export default cardData;
