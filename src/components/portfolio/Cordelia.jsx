@@ -20,6 +20,7 @@ const Cordelia = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [imageList, setImageList] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   // Flatten images array for navigation
   useEffect(() => {
@@ -101,16 +102,34 @@ const Cordelia = () => {
           </div>
         </div>
 
-        <div className=" mt-5 md:m-0 md:w-[60%]">
+        <div className="mt-5 md:m-0 md:w-[60%]">
           <div className="justify-center md:w-[95%] lg:w-[70%] text-gray-700 tracking-wide">
-           <p className="mb-5">Cordelier’s Cafe is a hidden gem nestled in the heart of Airoli's high-tech park, offering a distinctive blend of vibrant yet cozy spaces. Designed specifically to cater to the dynamic office-goers of the tech park, the cafe provides a much-needed retreat from the fast-paced corporate environment. With its peaceful ambience overlooking the park's entrance, it seamlessly integrates comfort and elegance, creating an ideal setting for both work and relaxation.
-           </p>
-           <p className="mb-5">As soon as you step inside, you are greeted by an atmosphere of tranquillity and warmth, a stark contrast to the bustling world outside. Earthy-toned warm yellow and pastel green hues dominate the walls, evoking a sense of calm and serenity. Deep blue walls, finished with a rich texture, further enhance the luxurious appeal of the cafe.
-           </p>
-           <p className="mb-5">The seating arrangements are designed with both aesthetics and comfort in mind. Custom-made Chesterfield sofas lend a refined charm to the space while ensuring a cozy experience for patrons. The Cafe pays homage to classical design through its architectural elements. The symmetrical arches adorning the back wall lend a sense of grandeur and harmony to the interiors. These arches are enhanced by backlit niches, which serve as focal points for decorative elements, subtly adding character to the space.
-           </p>
-           <p className="mb-5">Cordelier’s Cafe redefines dining within Airoli’s high-tech park by seamlessly blending contemporary design with comfort and sophistication. Whether you are looking for a quiet corner to work, a cozy spot to unwind, or an elegant space to connect with colleagues, the Cafe offers the perfect sanctuary within the corporate landscape.
-           </p>
+            <p className="mb-5">
+              Cordelier’s Cafe is a hidden gem nestled in the heart of Airoli's high-tech park, offering a distinctive blend of vibrant yet cozy spaces. Designed specifically to cater to the dynamic office-goers of the tech park, the cafe provides a much-needed retreat from the fast-paced corporate environment. With its peaceful ambience overlooking the park's entrance, it seamlessly integrates comfort and elegance, creating an ideal setting for both work and relaxation.
+            </p>
+            <p className="mb-5">
+              As soon as you step inside, you are greeted by an atmosphere of tranquillity and warmth, a stark contrast to the bustling world outside. Earthy-toned warm yellow and pastel green hues dominate the walls, evoking a sense of calm and serenity. Deep blue walls, finished with a rich texture, further enhance the luxurious appeal of the cafe.
+            </p>
+
+            {/* Show the remaining paragraphs only when expanded */}
+            {isExpanded && (
+              <>
+                <p className="mb-5">
+                  The seating arrangements are designed with both aesthetics and comfort in mind. Custom-made Chesterfield sofas lend a refined charm to the space while ensuring a cozy experience for patrons. The Cafe pays homage to classical design through its architectural elements. The symmetrical arches adorning the back wall lend a sense of grandeur and harmony to the interiors. These arches are enhanced by backlit niches, which serve as focal points for decorative elements, subtly adding character to the space.
+                </p>
+                <p className="mb-5">
+                  Cordelier’s Cafe redefines dining within Airoli’s high-tech park by seamlessly blending contemporary design with comfort and sophistication. Whether you are looking for a quiet corner to work, a cozy spot to unwind, or an elegant space to connect with colleagues, the Cafe offers the perfect sanctuary within the corporate landscape.
+                </p>
+              </>
+            )}
+
+            {/* Read More / Read Less Button */}
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="text-blue-600 hover:underline"
+            >
+              {isExpanded ? "Read Less" : "Read More"}
+            </button>
           </div>
         </div>
       </div>
@@ -179,7 +198,7 @@ const Cordelia = () => {
         )}
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 };
