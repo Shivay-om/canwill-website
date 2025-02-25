@@ -5,7 +5,7 @@ import portfolio4 from '../../assets/portfolio4.jpg'
 import portfolio5 from '../../assets/portfolio5.jpg'
 import portfolio6 from '../../assets/portfolio6.jpg'
 import portfolio7 from '../../assets/portfolio7.jpg'
-import portfolio8 from '../../assets/portfolio8.jpg'
+import portfolio8 from '../../assets/cordelia/cordeliaCover.webp'
 import portfolio9 from '../../assets/portfolio9.jpg'
 
 const cardData = [
@@ -78,7 +78,7 @@ const cardData = [
         title: "cordelier's Cafe",
         description: 'Mumbai',
         // link: '/portfolio/sample-project',
-        link: "/portfolio/residential1",
+        link: "/portfolio/cordelia",
         category: "Commercial",
     },
     {

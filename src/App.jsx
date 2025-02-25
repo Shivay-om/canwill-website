@@ -11,6 +11,7 @@ import ContactPage from './components/contact/ContactPage';
 import GetQuotePage from './components/getQuote/GetQuotePage';
 import ScrollToTop from './components/ScrollToTop';
 import ThankYouPage from './components/contact/ThankYouPage';
+import Cordelia from './components/portfolio/Cordelia';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
+        <Route path="/portfolio/cordelia" element={<Cordelia />} />
 
         <Route path="/getQuote" element={<GetQuotePage/>} />
         <Route path="/thank-you" element={<ThankYouPage/>} />
