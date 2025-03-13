@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 // import exquisite from "../../assets/exquisite/exquisiteCover.webp";
-import exquisite1 from '../../assets/exquisite/1.webp'
-import exquisite2 from '../../assets/exquisite/2.webp'
-import exquisite3 from '../../assets/exquisite/3.webp'
-import exquisite4 from '../../assets/exquisite/4.webp'
-import exquisite5 from '../../assets/exquisite/5.webp'
-import exquisite6 from '../../assets/exquisite/6.webp'
-import exquisite7 from '../../assets/exquisite/7.webp'
-import exquisite8 from '../../assets/exquisite/8.webp'
+import exquisite1 from '../../assets/Exquisite/1.webp'
+import exquisite2 from '../../assets/Exquisite/2.webp'
+import exquisite3 from '../../assets/Exquisite/3.webp'
+import exquisite4 from '../../assets/Exquisite/4.webp'
+import exquisite5 from '../../assets/Exquisite/5.webp'
+import exquisite6 from '../../assets/Exquisite/6.webp'
+import exquisite7 from '../../assets/Exquisite/7.webp'
+import exquisite8 from '../../assets/Exquisite/8.webp'
 import Footer from "../Footer";
 
 
