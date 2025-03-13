@@ -17,8 +17,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className=" my-5 px-10 text-gray-700 pt-10 md:flex ">
-        <div className="md:w-[60%] items-center border-b border-b-[#00b8b8] ">
+      <div className=" my-5 px-10 text-gray-700 pt-10 md:flex  border-black">
+        <div className="md:w-[80%] lg:w-[60%] items-center  border-b border-b-[#00b8b8] ">
           <div className="pt-5">
             <div className="md:flex justify-between mb-6 ">
               <div className="flex justify-center">
@@ -109,8 +109,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="md:w-[40%] hidden md:flex px-10 pt-3  border-b border-l border-b-[#00b8b8] border-l-[#00b8b8]">
-          <div className="w-[30%] ">
+        <div className="lg:w-[40%] hidden  md:flex px-10 pt-3 border-b border-l border-b-[#00b8b8] border-l-[#00b8b8]">
+          <div className="lg:w-[30%] md:mb-3 lg:mb-0">
             <h1 className="text-2xl mb-5 ">Pages</h1>
             <div className="flex flex-col md:flex-row  gap-6 text-center md:text-left">
               <div>
@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center  ml-4 mt-3 mb-5 ">
+          <div className="hidden lg:flex justify-center items-center  ml-4 mt-3 mb-5 ">
             <img src={footer} alt="" className=" w-auto h-[150px] rounded-lg" />
           </div>
         </div>

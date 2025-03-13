@@ -1,26 +1,54 @@
 import React, { useState, useEffect } from "react";
-import cordelia from "../../assets/cordelia/cordeliaCover.webp";
-import cordelia1 from '../../assets/cordelia/cordelia1.webp'
-import cordelia2 from '../../assets/cordelia/cordelia2.webp'
-import cordelia3 from '../../assets/cordelia/cordelia3.webp'
-import cordelia4 from '../../assets/cordelia/cordelia4.webp'
-import cordelia5 from '../../assets/cordelia/cordelia5.webp'
-import cordelia6 from '../../assets/cordelia/cordelia6.webp'
-import cordelia7 from '../../assets/cordelia/cordelia7.webp'
-import cordelia8 from '../../assets/cordelia/cordelia8.webp'
+import iyer from "../../assets/iyer/iyerCover.webp";
+import iyer1 from '../../assets/iyer/iyer1.webp'
+import iyer2 from '../../assets/iyer/iyer2.webp'
+import iyer3 from '../../assets/iyer/iyer3.webp'
+import iyer4 from '../../assets/iyer/iyer4.webp'
+import iyer5 from '../../assets/iyer/iyer5.webp'
+import iyer6 from '../../assets/iyer/iyer6.webp'
+import iyer7 from '../../assets/iyer/iyer7.webp'
+import iyer8 from '../../assets/iyer/iyer8.webp'
+import iyer9 from '../../assets/iyer/iyer9.webp'
+import iyer10 from '../../assets/iyer/iyer10.webp'
+import iyer11 from '../../assets/iyer/iyer11.webp'
+import iyer12 from '../../assets/iyer/iyer12.webp'
+import iyer13 from '../../assets/iyer/iyer13.webp'
+import iyer14 from '../../assets/iyer/iyer14.webp'
+import iyer15 from '../../assets/iyer/iyer15.webp'
+import iyer16 from '../../assets/iyer/iyer16.webp'
+import iyer17 from '../../assets/iyer/iyer17.webp'
+import iyer18 from '../../assets/iyer/iyer18.webp'
+import iyer19 from '../../assets/iyer/iyer19.webp'
+import iyer20 from '../../assets/iyer/iyer20.webp'
+import iyer21 from '../../assets/iyer/iyer21.webp'
+import iyer22 from '../../assets/iyer/iyer22.webp'
+import iyer23 from '../../assets/iyer/iyer23.webp'
+import iyer24 from '../../assets/iyer/iyer24.webp'
+import iyer25 from '../../assets/iyer/iyer25.webp'
+import iyer26 from '../../assets/iyer/iyer26.webp'
+import iyer27 from '../../assets/iyer/iyer27.webp'
+import iyer28 from '../../assets/iyer/iyer28.webp'
+import iyer29 from '../../assets/iyer/iyer29.webp'
+import iyer30 from '../../assets/iyer/iyer30.webp'
+import iyer31 from '../../assets/iyer/iyer31.webp'
+import iyer32 from '../../assets/iyer/iyer32.webp'
 import Footer from "../Footer";
 
 
-const cordeliaImages = [
-    { img1: cordelia1, img2: cordelia2, },
-    { img3: cordelia3, img4: cordelia4, },
-    { img1: cordelia5, img2: cordelia6, },
-    { img3: cordelia7, img4: cordelia8, }
+const iyerImages = [
+  { img1: iyer1, img2: iyer2, img3: iyer3, img4: iyer4, },
+  { img1: iyer5, img2: iyer6, img3: iyer7, img4: iyer8, },
+  { img1: iyer9, img2: iyer10, img3: iyer11, img4: iyer12, },
+  { img1: iyer13, img2: iyer14, img3: iyer15, img4: iyer16, },
+  { img1: iyer17, img2: iyer18, img3: iyer19, img4: iyer20, },
+  { img1: iyer21, img2: iyer22, img3: iyer23, img4: iyer24, },
+  { img1: iyer25, img2: iyer26, img3: iyer27, img4: iyer28, },
+  { img1: iyer29, img2: iyer30, img3: iyer31, img4: iyer32, },
 ];
 
 const Iyer = () => {
     const [selectedImage, setSelectedImage] = useState(null);
-    const [imageList, setImageList] = useState([cordeliaImages]);
+    const [imageList, setImageList] = useState([iyerImages]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -74,7 +102,7 @@ const Iyer = () => {
         <div>
             <div>
                 <img
-                    src={cordelia}
+                    src={iyer}
                     alt=""
                     className="md:w-full md:h-screen object-cover"
                 />
@@ -83,13 +111,13 @@ const Iyer = () => {
             <div className="p-5 md:p-10 md:flex">
                 <div className=" md:w-[40%]">
                     <h1 className="text-gray-700 text-2xl lg:text-4xl mb-2 tracking-wider">
-                        Iyer House
+                        Iyer Residence
                     </h1>
-                    <p className="text-gray-500">Commercial | Mumbai, Maharashtra</p>
+                    <p className="text-gray-500">Residential Interior | Mumbai, Maharashtra</p>
 
                     <div className="mt-4 md:pr-8 lg:pr-16">
                         <p className="text-gray-500">
-                            <strong className="text-gray-700">Area :</strong> 1000 sq.ft
+                            <strong className="text-gray-700">Area :</strong> 1200 sq.ft
                         </p>
                         <p className="text-gray-500">
                             <strong className="text-gray-700">Status :</strong> Completed 2023
@@ -141,8 +169,8 @@ const Iyer = () => {
                 </div>
             </div>
 
-            <div className="border">
-                {cordeliaImages.map((images, index) => (
+            <div className="">
+                {iyerImages.map((images, index) => (
                     <div key={index} className={index !== 0 ? "mt-3 md:mt-5" : ""}>
                         <div className="flex w-[100%]">
                             <img
@@ -158,11 +186,6 @@ const Iyer = () => {
                                 onClick={() => openModal(images.img2)}
                             />
                         </div>
-                    </div>
-                ))}
-
-                {cordeliaImages.map((images, index) => (
-                    <div key={index} className={index !== 0 ? "mt-3 md:mt-5" : ""}>
                         <div className="flex mt-3 md:mt-5 w-[100%]">
                             <img
                                 src={images.img3}

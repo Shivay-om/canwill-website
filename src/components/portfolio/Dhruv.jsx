@@ -119,12 +119,12 @@ const Dhruv = () => {
 
         <div className="mt-5 md:m-0 md:w-[60%]">
           <div className="justify-center md:w-[95%] lg:w-[70%] text-gray-700 tracking-wide">
-            <h1 className="font-semibold tracking-wider text-lg mb-3">Minimal Elegance Meets Warmth and Functionality</h1>
+            <p className="font-semibold tracking-wider text-lg mb-3">Minimal Elegance Meets Warmth and Functionality</p>
             <p className="mb-5">
             This home in a high rise residential tower in Borivali exudes a harmonious blend of minimalism and warmth, with clean lines and a soft, natural palette. The design embraces an understated elegance, enhanced by warm wood tones, sleek details, and an abundance of natural light streaming in through expansive windows that frame breathtaking views of the city from every room.
             </p>
 
-            <h1 className="font-semibold tracking-wider text-lg mb-3">Living Spaces</h1>
+            <p className="font-semibold tracking-wider text-lg mb-3">Living Spaces</p>
             <p className="mb-5">
             The living and dining areas are thoughtfully designed to prioritize comfort and openness. The clean aesthetics and the warm tones of wood used in the furnishings are contrasted with a few quirky accents. Every corner invites relaxation while maintaining a sleek, modern appeal. A sleek and sophisticated bar counter with warm wood tones and a polished stone top serves as a stunning focal point. Ambient lighting and seamless storage make it both functional and inviting for social gatherings.
             </p>
@@ -132,27 +132,27 @@ const Dhruv = () => {
             {/* Show the remaining paragraphs only when expanded */}
             {isExpanded && (
               <>
-                <h1 className="font-semibold tracking-wider text-lg mb-3">Kitchen</h1>
+                <p className="font-semibold tracking-wider text-lg mb-3">Kitchen</p>
                 <p className="mb-5">
                 The kitchen is an elegant haven, featuring a sleek, interactive island counter that serves as a hub for casual dining and entertaining. A sliding fluted glass partition allows for flexibility and privacy when needed, suiting Indian cooking requirements. The combination of clean Italian marble countertops, fluted glass and ergonomic design makes this space both stylish and practical. 
                 </p>
 
-                <h1 className="font-semibold tracking-wider text-lg mb-3">Bedroom 1</h1>
+                <p className="font-semibold tracking-wider text-lg mb-3">Bedroom 1</p>
                 <p className="mb-5">
                 Inspired by Japandi aesthetics, this room offers a serene retreat with a raised platform bed and a light wood finish. The design balances Japanese minimalism and Scandinavian warmth, creating a calming atmosphere perfect for rest and relaxation.
                 </p>
 
-                <h1 className="font-semibold tracking-wider text-lg mb-3">Daughter's Bedroom</h1>
+                <p className="font-semibold tracking-wider text-lg mb-3">Daughter's Bedroom</p>
                 <p className="mb-5">
                 The young daughter’s room is a charming, girly sanctuary filled with personality and comfort. Soft colours and whimsical design elements make this room a delightful haven while maintaining a sophisticated balance with the rest of the home. A decked out vanity table with open shelves throughout to display her soft toys make this space every little girl’s dream. 
                 </p>
 
-                <h1 className="font-semibold tracking-wider text-lg mb-3">Master Bedroom</h1>
+                <p className="font-semibold tracking-wider text-lg mb-3">Master Bedroom</p>
                 <p className="mb-5">
                 The master bedroom is an expansive, luxurious space that feels like a private oasis. Large windows maximize natural light and showcase the city views, while the design incorporates warm tones, plush textures, and understated elegance to create an inviting and tranquil environment.
                 </p>
 
-                <h1 className="font-semibold tracking-wider text-lg mb-3">Details & Finishing Touches</h1>
+                <p className="font-semibold tracking-wider text-lg mb-3">Details & Finishing Touches</p>
                 <p className="mb-5">
                 The design prioritizes subtle yet impactful details that elevate the overall aesthetic. Thoughtful lighting, stylish furnishings and clean hardware contribute to the home's sleek, cohesive look. Every element is chosen with precision, ensuring that functionality meets refined beauty in every space.
                 </p>

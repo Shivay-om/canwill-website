@@ -14,6 +14,12 @@ import ThankYouPage from './components/contact/ThankYouPage';
 import Cordelia from './components/portfolio/Cordelia';
 import Dhruv from './components/portfolio/Dhruv';
 import Iyer from './components/portfolio/Iyer';
+import HouseForest from './components/portfolio/HouseForest';
+import ChingsuiHouse from './components/portfolio/ChingsuiHouse';
+import Powai from './components/portfolio/Powai';
+import Colonial from './components/portfolio/Colonial';
+import Standard from './components/portfolio/Standard';
+import Exquisite from './components/portfolio/Exquisite';
 
 function App() {
 
@@ -30,7 +36,13 @@ function App() {
         <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
         <Route path="/portfolio/cordelia" element={<Cordelia />} />
         <Route path="/portfolio/dhruv-residence" element={<Dhruv />} />
-        {/* <Route path="/portfolio/iyer-house" element={<Iyer />} /> */}
+        <Route path="/portfolio/iyer-house" element={<Iyer />} />
+        <Route path="/portfolio/house-of-forest" element={<HouseForest />} />
+        <Route path="/portfolio/chingsui-house" element={<ChingsuiHouse />} />
+        <Route path="/portfolio/powai-residence" element={<Powai />} />
+        <Route path="/portfolio/colonial-abode" element={<Colonial />} />
+        <Route path="/portfolio/standard-greases" element={<Standard />} />
+        <Route path="/portfolio/exquisite-home" element={<Exquisite />} />
 
         <Route path="/getQuote" element={<GetQuotePage/>} />
         <Route path="/thank-you" element={<ThankYouPage/>} />

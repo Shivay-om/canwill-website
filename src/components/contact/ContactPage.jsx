@@ -15,16 +15,16 @@ const ContactPage = () => {
   return (
     <>
     <div>
-      <div className='p-5 md:p-10 md:flex'>
-        <div className=' md:w-[60%] text-gray-700 md:p-10'>
+      <div className='p-5 md:p-10 md:flex '>
+        <div className=' md:w-[50%]  lg:w-[60%] text-gray-700 md:py-10 lg:p-10  border-black'>
           <h1 className='text-3xl md:text-4xl lg:text-5xl font-medium tracking-wide text-center md:text-start mb-5 md:mb-8'>Get in Touch</h1>
           <div className=' border-black lg:flex'>
-            <div className='md:w-[50%]'>
+            <div className='lg:w-[50%]'>
               <p className='text-center md:text-start mb-5 tracking-wide  md:text-xl'>for any enquiries, or just to say hello, get in touch and contact us.</p>
             </div>
 
-            <div className='flex flex-col justify-center md:w-[50%] md:pl-14 md:h-auto gap-5 md:gap-10 border-green-400'>
-              <div className='flex flex-col justify-center md:justify-start md:items-start items-center'>
+            <div className='flex flex-col justify-center md:w-[50%] lg:pl-14 md:h-auto gap-5 md:gap-10 border-green-400'>
+              <div className='flex flex-col justify-center md:justify-start md:items-start items-center '>
                 <h1 className='mb-3 text-[#1E1E1E] text-lg text-opacity-75 tracking-wider'>Project enquiries</h1>
                 <a
                   href="mailto:canwilldesign@gmail.com"
@@ -62,8 +62,8 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <div className='pt-8 md:pt-0 md:w-[40%]'>
-            <img src={pot} alt="" className='w-full h-auto md:h-full object-cover md:pr-10 md:pt-10'/>
+        <div className='pt-8 md:pt-0 md:w-[50%] lg:w-[40%]'>
+            <img src={pot} alt="" className='w-full h-auto md:h-full object-cover lg:pr-10 lg:pt-10'/>
         </div>
       </div>
       {/* <div className='p-5 md:p-10'>

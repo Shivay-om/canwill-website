@@ -8,6 +8,8 @@ import portfolio7 from '../../assets/portfolio7.jpg'
 import portfolio8 from '../../assets/cordelia/cordeliaCover.webp'
 import portfolio9 from '../../assets/portfolio9.jpg'
 import portfolio10 from '../../assets/dhruv/dhruvCover.webp'
+import portfolio11 from '../../assets/forestCover.webp'
+
 
 
 const cardData = [
@@ -26,7 +28,7 @@ const cardData = [
       title: 'Dr. Chingsui’s House',
       description: 'Manipur',
     //   link: '/portfolio/another-project',
-      link: "/portfolio/residential1",
+      link: "/portfolio/chingsui-house",
       category: "Architecture",
     },
     {
@@ -35,7 +37,7 @@ const cardData = [
       title: 'Colonial Abode.',
       description: 'Mumbai',
     //   link: '/portfolio/sample-project',
-      link: "/portfolio/labs1",
+      link: "/portfolio/colonial-abode",
       category: "Residential",
     },
     {
@@ -44,7 +46,7 @@ const cardData = [
         title: 'The Powai Home.',
         description: 'Mumbai',
         // link: '/portfolio/sample-project',
-        link: "/portfolio/residential1",
+        link: "/portfolio/powai-residence",
         category: "Residential",
     },
     {
@@ -53,7 +55,7 @@ const cardData = [
         title: 'Oberoi Exquisite',
         description: 'Mumbai',
         // link: '/portfolio/sample-project',
-        link: "/portfolio/architecture1",
+        link: "/portfolio/exquisite-home",
         category: "Residential",
     },
     {
@@ -62,18 +64,18 @@ const cardData = [
         title: 'Standard Greases',
         description: 'Silvassa',
         // link: '/portfolio/sample-project',
-        link: "/portfolio/residential1",
+        link: "/portfolio/standard-greases",
         category: "Commercial",
     },
-    {
-        imageSrc: portfolio7,
-        altText: 'Sample Image',
-        title: 'VLSR',
-        description: 'Mumbai',
-        // link: '/portfolio/sample-project',
-        link: "/portfolio/architecture1",
-        category: "Labs",
-    },
+    // {
+    //     imageSrc: portfolio7,
+    //     altText: 'Sample Image',
+    //     title: 'VLSR',
+    //     description: 'Mumbai',
+    //     // link: '/portfolio/sample-project',
+    //     link: "/portfolio/architecture1",
+    //     category: "Labs",
+    // },
     {
         imageSrc: portfolio8,
         altText: 'Sample Image',
@@ -100,7 +102,16 @@ const cardData = [
       // link: '/portfolio/sample-project',
       link: "/portfolio/dhruv-residence",
       category: "Residential",
-  },
+    },
+    {
+      imageSrc: portfolio11,
+      altText: 'Sample Image',
+      title: 'House overlooking the Forest',
+      description: 'Mumbai',
+      // link: '/portfolio/sample-project',
+      link: "/portfolio/house-of-forest",
+      category: "Residential",
+    },
   ];
 
 export default cardData;
