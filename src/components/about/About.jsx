@@ -6,11 +6,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
+import { Helmet } from "react-helmet-async";
 
 
 const About = () => {
     return (
         <>
+            <Helmet>
+                <title>Masters of Timeless Interiors | Can Will Design, Mumbai</title>
+                <meta name="description" content="With 21+ years of expertise, we design spaces that blend luxury & functionality. Discover our passion for creating elegant, high-end interiors & architecture." />
+            </Helmet>
             <div className='p-5 md:p-10'>
                 <div>
                     <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />

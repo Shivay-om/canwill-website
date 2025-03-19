@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import Footer from '../Footer';
 import emailjs from '@emailjs/browser';
+import { Helmet } from "react-helmet-async";
 
 const GetQuotePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -49,6 +50,11 @@ const GetQuotePage = () => {
   return (
     <>
       <div className="p-5 md:p-10 lg:mt-7 limit">
+        <Helmet>
+          <title>Request a Quote | Premium Interior Designers in Mumbai</title>
+          <meta name="description" content="Looking for luxury interiors? Get a custom quote for your home or commercial space. Premium craftsmanship & seamless project execution. Contact us today!" />
+        </Helmet>
+
         <div className="w-full h-full md:flex justify-between gap-10">
           <div className="w-full md:w-[50%]">
             <img src={getQuote} alt="" className="w-full h-full lg:h-[705px] object-cover lg:object-bottom" />
@@ -162,8 +168,8 @@ const GetQuotePage = () => {
                 <button
                   type="submit"
                   className={`w-full py-3 px-4 text-white rounded-md transition flex justify-center items-center ${isLoading
-                      ? "bg-gray-400 cursor-not-allowed"
-                      : "bg-[#03b9b9] hover:bg-[#03b9b9d3]"
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-[#03b9b9] hover:bg-[#03b9b9d3]"
                     }`}
                   disabled={isLoading}
                 >
