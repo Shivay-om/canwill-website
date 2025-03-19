@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 // import standard from "../../assets/standard/standardCover.webp";
-import standard1 from '../../assets/standard/1.webp'
-import standard2 from '../../assets/standard/2.webp'
-import standard3 from '../../assets/standard/3.webp'
-import standard4 from '../../assets/standard/4.webp'
-import standard5 from '../../assets/standard/5.webp'
-import standard6 from '../../assets/standard/6.webp'
-import standard7 from '../../assets/standard/7.webp'
-import standard8 from '../../assets/standard/8.webp'
+import standard1 from '../../assets/standard/1.jpeg'
+import standard2 from '../../assets/standard/2.jpeg'
+import standard3 from '../../assets/standard/3.jpg'
+import standard4 from '../../assets/standard/4.jpg'
+import standard5 from '../../assets/standard/5.jpeg'
+import standard6 from '../../assets/standard/6.jpg'
+import standard7 from '../../assets/standard/7.jpeg'
+import standard8 from '../../assets/standard/8.jpeg'
 import Footer from "../Footer";
 
 

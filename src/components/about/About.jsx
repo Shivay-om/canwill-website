@@ -16,7 +16,7 @@ const About = () => {
                     <img src={team} alt="" className='lg:h-screen w-full object-cover rounded-xl' />
                     <h1 className='text-3xl md:text-5xl text-gray-700 text-center mt-5 md:mt-10 mb-3'>About Us</h1>
 
-                    <div className='my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second'>
+                    <div className='my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second limit'>
                         {/* <h1 className='text-2xl text-center text-gray-700 md:text-2xl tracking-wider font-semibold mb-3'>Ideology</h1> */}
                         <p className='text-justify'>Welcome to Canwill Design Associates, where creativity meets functionality, and every space tells a story. We are dedicated to creating timeless and durable designs that stand the test of time.</p>
                         <p className='mt-3 text-justify'>With over two decades of industry expertise, we believe that great design goes beyond aesthetics—it’s about crafting spaces that resonate with your personality, meet your needs, and inspire your everyday life. Whether it’s a cozy home, a luxurious retreat, or a high-tech laboratory, we bring a unique blend of artistic vision and practical expertise to every project we undertake.</p>
@@ -34,7 +34,7 @@ const About = () => {
 
 
                 {/* founders */}
-                <div className='my-10 '>
+                <div className='my-10 limit'>
                     <h1 className='text-3xl md:text-5xl text-gray-700 font-medium text-center leading-relaxed my-5 mb-10 md:pt-5'>Meet our Founders</h1>
                     <div className='lg:flex justify-around mb-10'>
                         <div className='lg:w-[40%] flex justify-center'>
@@ -64,7 +64,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className=' px-5 md:pb-5 mb-10'>
+            <div className=' px-5 md:pb-5 mb-10 limit'>
                 <div className='lg:w-[85%] md:mx-5 lg:mx-auto tracking-wide mx-auto'>
                     <h1 className='text-2xl text-center text-gray-700 md:text-3xl tracking-wider font-medium mb-3'>What Sets Us Apart</h1>
                     <p className='text-justify text-lg text-gray-700 md:text-center'> <span className='font-semibold tracking-wide'>Custom Solutions:</span> Every project is a fresh canvas. We pride ourselves on bespoke designs that reflect your individuality.</p>

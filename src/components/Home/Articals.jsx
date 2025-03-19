@@ -6,7 +6,7 @@ import article2 from '../../assets/image1.jpg'
 
 const Articals = () => {
     return (
-        <div className='md:h-auto text-gray-700 md:px-10 pb-5'>
+        <div className='md:h-auto text-gray-700 md:px-10 pb-5 limit'>
             <div>
                 <div className='flex justify-center items-center'>
                     <div className='w-10 border-b border-gray-700 border mr-2'></div>

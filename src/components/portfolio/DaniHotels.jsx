@@ -30,7 +30,7 @@ import Footer from "../Footer";
 const daniImages = [
   { img1: dani1, img2: dani2, img3: dani3, img4: dani4, },
   { img1: dani5, img2: dani6, img3: dani7, img4: dani8, },
-  { img1: dani9, img2: dani10, img3: dani11, img4: dani1, },
+  { img1: dani9, img2: dani10, img3: dani11, img4: dani2, },
   { img1: dani13, img2: dani14, img3: dani15, img4: dani16, },
   { img1: dani17, img2: dani18, img3: dani19, img4: dani20, },
   { img1: dani21, img2: dani22, img3: dani23, img4: dani24, },
