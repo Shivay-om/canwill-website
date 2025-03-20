@@ -40,7 +40,7 @@ const CallButton = () => (
     href="tel:+919821502078"
     target="_blank"
     rel="noopener noreferrer"
-    className="fixed bottom-12 left-4"
+    className="fixed bottom-12 left-4 z-50"
   >
     <img src={call} alt="WhatsApp" className="w-12 h-12" />
   </a>
