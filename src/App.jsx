@@ -23,6 +23,7 @@ import Exquisite from './components/portfolio/Exquisite';
 import whatsapp from "./assets/social2.svg";
 import call from "./assets/telephone.png"
 import { HelmetProvider } from "react-helmet-async";
+import PortfolioHidden from './components/portfolio/PortfolioHidden';
 
 const WhatsAppButton = () => (
   <a
@@ -59,6 +60,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
 
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio-residential" element={<PortfolioHidden />} />
         <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
         <Route path="/portfolio/cordelia" element={<Cordelia />} />
         <Route path="/portfolio/dhruv-residence" element={<Dhruv />} />
