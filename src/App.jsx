@@ -60,7 +60,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
 
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/portfolio-residential" element={<PortfolioHidden />} />
+        <Route path="/residential-interior-designer-2-3BHKs-mumbai" element={<PortfolioHidden />} />
         <Route path="/portfolio/Dani-hotels" element={<DaniHotels />} />
         <Route path="/portfolio/cordelia" element={<Cordelia />} />
         <Route path="/portfolio/dhruv-residence" element={<Dhruv />} />
