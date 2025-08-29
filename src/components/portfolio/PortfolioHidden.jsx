@@ -10,6 +10,7 @@ import Footer from '../Footer';
 
 const PortfolioHidden = () => {
     const [selectedCategory, setSelectedCategory] = useState("All Projects");
+    const [isExpanded, setIsExpanded] = useState(false);
 
     const filteredCards =
         selectedCategory === "All Projects"
@@ -18,34 +19,112 @@ const PortfolioHidden = () => {
 
     return (
         <>        <div>
-           <div className="p-5 md:p-10">
-    {/* Cards */}
-    <div className="flex flex-wrap justify-center items-center mx-auto gap-2">
-        {filteredCards
-            .filter((data) => data.category === "Residential") // ✅ Only Residential
-            .map((data) => (
-                <div    
-                    key={data.id}
-                    className="relative w-full h-[300px] md:w-[410px] md:h-auto group overflow-hidden"
-                >
-                    {/* <h1>“Curated omes, Designed for Modern Living”</h1> */}
-                    <img
-                        src={data.imageSrc}
-                        alt={data.altText}
-                        className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <Link to={data.link}>
-                        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <h1 className="text-xl md:text-2xl font-medium tracking-wider">
-                                {data.title}
-                            </h1>
-                            <p className="mt-2 text-sm md:text-base">{data.description}</p>
-                        </div>
-                    </Link>
+            <div className="p-5 md:p-10">
+                {/* Cards */}
+                <div className="mb-5 lg:mb-10">
+                    <h1 className="text-3xl md:text-5xl text-gray-700 text-center mb-3">
+                        “Curated Homes, Designed for Modern Living”
+                    </h1>
+
+                    <p className="my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second">
+                        A collection of 2 & 3 BHK apartments in Mumbai, each crafted with quiet luxury, timeless design, and a deep sense of comfort.
+                    </p>
+
+                    {/* MOBILE VIEW */}
+                    <div className="block md:hidden">
+                        <p className="text-justify text-gray-700 text-lg">
+                            At Canwill, we believe that homes are not just designed, they’re composed.
+                            Each of our residential interiors tells a story of balance — between aesthetics
+                            and function, luxury and livability, individuality and timelessness.
+                        </p>
+
+                        <p className="text-justify text-gray-700 text-lg mt-3">
+                            Featured in leading design publications, our work stands apart for its meticulous
+                            detailing and restraint, creating spaces that breathe, flow, and inspire.
+                            Here, you’ll discover a glimpse of our residential projects — homes that reflect
+                            the lifestyle of discerning 2 and 3 BHK homeowners who value design that feels
+                            personal, elevated, and enduring.
+                            {!isExpanded && (
+                                <span
+                                    onClick={() => setIsExpanded(true)}
+                                    className="text-blue-600 cursor-pointer ml-2"
+                                >
+                                    ...Read More
+                                </span>
+                            )}
+                        </p>
+
+                        {isExpanded && (
+                            <>
+                                <h1 className="my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second">
+                                    “Why Our Homes Feel Different”
+                                </h1>
+
+                                <p className="text-justify text-gray-700 text-lg">
+                                    Unlike template-driven interiors, we approach every residence as a bespoke canvas.
+                                    Whether it’s optimizing compact city apartments or layering textures for expansive homes,
+                                    our design philosophy is rooted in subtle sophistication. From materiality to light,
+                                    proportion to palette — nothing is accidental. It’s this sensitivity that has earned
+                                    our homes recognition in Architectural Digest and Interior Design Today.
+                                </p>
+                            </>
+                        )}
+                    </div>
+
+                    {/* DESKTOP/TABLET VERSION (always expanded) */}
+                    <div className="hidden md:block">
+                        <p className="text-justify text-gray-700 text-lg">
+                            At Canwill, we believe that homes are not just designed, they’re composed.
+                            Each of our residential interiors tells a story of balance — between aesthetics
+                            and function, luxury and livability, individuality and timelessness. Featured in
+                            leading design publications, our work stands apart for its meticulous detailing
+                            and restraint, creating spaces that breathe, flow, and inspire.
+                        </p>
+
+                        <h1 className="my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second">
+                            “Why Our Homes Feel Different”
+                        </h1>
+
+                        <p className="text-justify text-gray-700 text-lg">
+                            Unlike template-driven interiors, we approach every residence as a bespoke canvas.
+                            Whether it’s optimizing compact city apartments or layering textures for expansive homes,
+                            our design philosophy is rooted in subtle sophistication. From materiality to light,
+                            proportion to palette — nothing is accidental. It’s this sensitivity that has earned
+                            our homes recognition in Architectural Digest and Interior Design Today.
+                        </p>
+                    </div>
                 </div>
-            ))}
-    </div>
-</div>
+                <div className="flex flex-wrap justify-center items-center mx-auto gap-2">
+                    {filteredCards
+                        .filter((data) => data.category === "Residential") // ✅ Only Residential
+                        .map((data) => (
+                            <div
+                                key={data.id}
+                                className="relative w-full h-[300px] md:w-[410px] md:h-auto group overflow-hidden"
+                            >
+                                {/* <h1>“Curated omes, Designed for Modern Living”</h1> */}
+                                <img
+                                    src={data.imageSrc}
+                                    alt={data.altText}
+                                    className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                                <Link to={data.link}>
+                                    <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <h1 className="text-xl md:text-2xl font-medium tracking-wider">
+                                            {data.title}
+                                        </h1>
+                                        <p className="mt-2 text-sm md:text-base">{data.description}</p>
+                                    </div>
+                                </Link>
+                            </div>
+                        ))}
+                </div>
+
+                <div>
+                    <h1 className='my-5 text-lg tracking-wide text-gray-700 lg:w-[85%] mx-auto font-second limit'>“Your Home, Reimagined”</h1>
+                    <p className='text-justify text-gray-700 text-lg'>Our residential portfolio is a window into what thoughtful design can achieve. But no two families, no two homes are alike. That’s why we listen, adapt, and craft every detail around you. Whether you’re moving into your first 2BHK or upgrading to a spacious 3BHK, our process is about creating interiors that feel intimate, functional, and quietly extraordinary.</p>
+                </div>
+            </div>
 
             <div className='bg-[#f7f7f7] tracking-wide p-10 mb-5'>
                 <div className=' flex flex-col justify-center items-center'>
