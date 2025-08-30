@@ -25,7 +25,7 @@ const PortfolioHidden = () => {
                 <title>Elegant 2–3 BHK Luxury Interiors | Can Will Design, Mumbai</title>
                 <meta name="description" content="Discover bespoke 2–3 BHK interiors in Mumbai. Crafted for discerning homeowners, every Can Will design reflects timeless elegance, sophistication, and refined living." />
             </Helmet>
-            <div>
+            <div>   
                 <div className="p-5 md:p-10">
                     {/* Cards */}
                     <div className="mb-5 lg:mb-10">
@@ -112,15 +112,16 @@ const PortfolioHidden = () => {
                                         className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
                                     />
                                     <Link to={data.link}>
-                                        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center text-center text-white p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                            <h1 className="text-xl md:text-2xl font-medium tracking-wider">
+                                        <div className="absolute inset-0  flex flex-col justify-end items-center text-center text-white p-4 opacity-100 transition-opacity duration-300">
+                                            <h1 className="text-xl md:text-xl font-medium   tracking-wider bg-black bg-opacity-20 shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px] px-2"
+                                            >
                                                 {data.title}
                                             </h1>
                                             <p className="mt-2 text-sm md:text-base">{data.description}</p>
                                         </div>
                                     </Link>
                                 </div>
-                            ))}
+                            ))}                         
                     </div>
 
                     <div>
