@@ -56,11 +56,10 @@ const Form = () => {
           <meta name="description" content="Looking for luxury interiors? Get a custom quote for your home or commercial space. Premium craftsmanship & seamless project execution. Contact us today!" />
         </Helmet>
 
-        <div className="w-full h-full md:flex justify-between gap-10">
-
+        <div className="w-full h-full md:flex justify-between gap-10 md:border py-2 md:py-5 lg:py-2 rounded-lg  border-gray-700">
           <div className="mx-auto w-full md:w-[80%] h-full py-10 md:py-0 bg-white rounded-lg ">
             <h1 className="text-2xl font-medium text-center  mb-3">
-              Get a Free Consultation
+              Let's Talk About Your Project
             </h1>
 
             <form onSubmit={sendEmail}>
@@ -176,7 +175,6 @@ const Form = () => {
                   className="w-full py-2 px-2 rounded-sm border outline-none"
                   placeholder="Write your message here"
                   onChange={handleChange}
-                  required
                 ></textarea>
               </div>
 

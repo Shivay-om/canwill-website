@@ -7,7 +7,7 @@ import cardData from "./PortfolioData";
 import Footer from "../Footer";
 import { Helmet } from "react-helmet-async";
 import Form from "./Form";
-import { InstagramEmbed } from 'react-social-media-embed';
+import { InstagramEmbed } from "react-social-media-embed";
 
 const PortfolioHidden = () => {
   const [selectedCategory, setSelectedCategory] = useState("All Projects");
@@ -47,7 +47,7 @@ const PortfolioHidden = () => {
               <div>
                 <p className="text-justify text-gray-700 text-lg">
                   At Canwill, we believe that homes are not just designed,{" "}
-                  <b>they’re composed.</b>
+                  <b className="mr-1">they’re composed.</b>
                   Each of our residential interiors tells a story of balance —
                   between aesthetics and function, luxury and livability,
                   individuality and timelessness.
@@ -100,7 +100,7 @@ const PortfolioHidden = () => {
               <div className="w-1/2  border-red-500 pr-5">
                 <p className="text-justify text-gray-700 text-lg">
                   At Canwill, we believe that homes are not just designed,{" "}
-                  <b>they’re composed.</b>
+                  <b className="mr-2">they’re composed.</b>
                   Each of our residential interiors tells a story of balance —
                   between{" "}
                   <b>
@@ -124,16 +124,13 @@ const PortfolioHidden = () => {
                   materiality to light, proportion to palette — nothing is
                   accidental. It’s this sensitivity that has earned our homes
                   recognition in Architectural Digest and Interior Design Today.
-                </p>
-
-                <p className="text-justify mt-5 text-gray-700 text-lg ">
                   At Canwill, we believe that homes are not just designed,
                   they’re composed.
                 </p>
 
-                <p className="text-center mt-5 text-gray-700 text-lg ">
-                  "Think of us like we’re End-to-end interiors without the
-                  running around"
+                <p className="text-center mt-7 text-gray-700 text-lg ">
+                  Think of us like we’re End-to-end interiors without the
+                  running around
                 </p>
               </div>
               <div className="w-1/2  border-black">
@@ -141,9 +138,20 @@ const PortfolioHidden = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center items-center mx-auto gap-2">
+
+          <div className="">
+            <p className="my-5 md:my-8 text-xl tracking-wide text-gray-700 lg:w-[95%] text-center mx-auto font-second">We Don’t Do Templates. A Look At Spaces Built Specifically For The
+            People In Them</p>
+          </div>
+          <div className="flex flex-wrap justify-center items-center mx-auto gap-2 ">
             {filteredCards
               .filter((data) => data.category === "Residential") // ✅ Only Residential
+              .sort((a, b) => {
+                // Extract the number from strings like "1bhk", "2BHK", "10bhk"
+                const bhkA = parseInt(a.BHK, 10) || 0;
+                const bhkB = parseInt(b.BHK, 10) || 0;
+                return bhkA - bhkB; // Ascending order (1, 2, 3...)
+              })
               .map((data) => (
                 <div
                   key={data.id}
@@ -156,16 +164,21 @@ const PortfolioHidden = () => {
                     className="w-full h-[297px] object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <Link to={data.link}>
-                    <div className="absolute inset-0 flex flex-col items-end text-center text-white p-4 opacity-100 transition-opacity duration-300">
-                      <h1 className="text-xl md:text-xl font-medium tracking-wider bg-black bg-opacity-20 shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px] px-2">
-                        {data.title}
-                      </h1>
-                      <p className="mt-2 text-sm md:text-base">
-                        {data.description}
-                      </p>
-                      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/90 via-black/50 to-transparent pointer-events-none">
-                        <p className="text-sm md:text-base text-left">
+                    <div className="absolute inset-0 p-4 opacity-100 transition-opacity duration-300">
+                      {/* Top-Right: BHK Tag */}
+                      <div className="absolute top-4 right-4 z-10">
+                        <span className="text-sm md:text-base font-medium text-white bg-black/40 backdrop-blur-sm  border-white/20 px-3 py-1 rounded-full shadow-md">
                           {data.BHK}
+                        </span>
+                      </div>
+
+                      {/* Bottom-Left: Gradient Overlay with Title & Description */}
+                      <div className="absolute bottom-0 left-0 right-0 p-4 pt-12 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex flex-col items-start text-left text-white pointer-events-none">
+                        <h1 className="text-xl md:text-xl font-medium tracking-wider bg-black/20 shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px] px-2 rounded">
+                          {data.title}
+                        </h1>
+                        <p className="mt-2 pl-3 text-sm md:text-base opacity-90">
+                          {data.description}
                         </p>
                       </div>
                     </div>
@@ -185,7 +198,10 @@ const PortfolioHidden = () => {
             </p>
           </div>
 
-          <InstagramEmbed url="https://www.instagram.com/canwilldesign/" width={328} />
+          {/* <InstagramEmbed
+            url="https://www.instagram.com/canwilldesign/"
+            width={328}
+          /> */}
         </div>
 
         <div className="bg-[#f7f7f7] tracking-wide p-10 mb-5">
