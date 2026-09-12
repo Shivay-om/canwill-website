@@ -9,6 +9,8 @@ import { Helmet } from "react-helmet-async";
 import Form from "./Form";
 import { InstagramEmbed } from "react-social-media-embed";
 
+
+
 const PortfolioHidden = () => {
   const [selectedCategory, setSelectedCategory] = useState("All Projects");
   const [isExpanded, setIsExpanded] = useState(false);
@@ -32,12 +34,12 @@ const PortfolioHidden = () => {
       <div>
         <div className="p-5 md:p-10">
           {/* Cards */}
-          <div className="mb-5 lg:mb-10">
+          <div className="mb-5 lg:mb-10 ">
             <h1 className="text-3xl md:text-5xl text-gray-700 text-center mb-3">
               Curated Homes, Designed for Modern Living
             </h1>
 
-            <p className="my-5 text-xl tracking-wide text-gray-700 lg:w-[95%] text-center mx-auto font-second">
+            <p className="my-5 md:my-10 text-xl tracking-wide text-gray-700 lg:w-[95%] text-center mx-auto font-second ">
               "A collection of 2 & 3 BHK apartments in Mumbai, each crafted with
               quiet luxury, timeless design, and a deep sense of comfort."
             </p>
@@ -140,8 +142,10 @@ const PortfolioHidden = () => {
           </div>
 
           <div className="">
-            <p className="my-5 md:my-8 text-xl tracking-wide text-gray-700 lg:w-[95%] text-center mx-auto font-second">We Don’t Do Templates. A Look At Spaces Built Specifically For The
-            People In Them</p>
+            <h1 className="text-xl md:text-3xl text-gray-700 text-center font-semibold tracking-wide mb-10">
+              We Don’t Do Templates. A Look At Spaces Built Specifically For The
+              People In Them
+            </h1>
           </div>
           <div className="flex flex-wrap justify-center items-center mx-auto gap-2 ">
             {filteredCards
@@ -188,7 +192,7 @@ const PortfolioHidden = () => {
           </div>
 
           <div>
-            <p className="text-justify text-gray-700 text-lg my-5">
+            <p className="text-justify text-gray-700 text-lg my-5 md:my-10">
               Our residential portfolio is a window into what thoughtful design
               can achieve. But no two families, no two homes are alike. That’s
               why we listen, adapt, and craft every detail around you. Whether
@@ -198,10 +202,27 @@ const PortfolioHidden = () => {
             </p>
           </div>
 
-          {/* <InstagramEmbed
-            url="https://www.instagram.com/canwilldesign/"
-            width={328}
-          /> */}
+          <div className="flex flex-wrap justify-around items-center mx-auto gap-2 ">
+            <InstagramEmbed
+              url="https://www.instagram.com/p/DLWP2zMtaNV/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
+              width={440}
+              height={560}
+          
+            />
+            <InstagramEmbed
+              url="https://www.instagram.com/p/DLJelRnN-4j/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
+              width={440}
+              height={560}
+            />
+              
+            
+            <InstagramEmbed
+              url="https://www.instagram.com/p/DMEvMpKS1j0/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
+              width={440}
+              height={560}
+            />
+            
+          </div>
         </div>
 
         <div className="bg-[#f7f7f7] tracking-wide p-10 mb-5">

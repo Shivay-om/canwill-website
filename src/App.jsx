@@ -44,7 +44,7 @@ const CallButton = () => (
     className="fixed bottom-12 left-4 z-50"
   >
     {/* <img src={call} alt="WhatsApp" className="w-12 h-12" /> */}
-    <p className='px-6 py-2 rounded-full bg-[#000075] italic tracking-wide text-white'>Book Consultation</p>
+    <p className='px-6 py-2 rounded-full bg-[#00b8b8] italic tracking-wide font-semibold tracking-wide border-black'>Book Consultation</p>
   </a>
 );
 

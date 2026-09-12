@@ -33,7 +33,7 @@ const Form = () => {
     emailjs
       .send(
         'service_ji1gc69',
-        'template_822sva2',
+        'template_klw98so',
         formData,
         '2nPupY7fhmVMain-F'
       )
