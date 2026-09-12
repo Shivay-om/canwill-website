@@ -13,10 +13,10 @@ const Form = () => {
   const budget = ['15 Lacs - 20 Lacs', '20 Lacs - 25 Lacs', '25 Lacs - 35 Lacs', '35 Lacs - 50 Lacs',];
   const [formData, setFormData] = useState({
     firstName: '',
-    lastName: '',
     phone: '',
     email: '',
     message: '',
+    budget: '',
     city: '',
     bhk: '',
   });
@@ -101,20 +101,20 @@ const Form = () => {
                 </select>
               </div>
               <div className="mb-5">
-                <label htmlFor="city" className="block md:text-xl font-medium font-custom text-gray-700 mb-2">
+                <label htmlFor="budget" className="block md:text-xl font-medium font-custom text-gray-700 mb-2">
                   What's Your Budget?
                 </label>
                 <select
-                  id="city"
-                  name="city"
+                  id="budget"
+                  name="budget"
                   className="w-full border px-1 py-1 border-gray-300 rounded-sm outline-none"
                   onChange={handleChange}
                   required
                 >
                   <option value="">Select</option>
-                  {budget.map((city, index) => (
-                    <option key={index} value={city}>
-                      {city}
+                  {budget.map((budgetOption, index) => (
+                    <option key={index} value={budgetOption}>
+                      {budgetOption}
                     </option>
                   ))}
                 </select>
