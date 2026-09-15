@@ -9,8 +9,6 @@ import { Helmet } from "react-helmet-async";
 import Form from "./Form";
 import { InstagramEmbed } from "react-social-media-embed";
 
-
-
 const PortfolioHidden = () => {
   const [selectedCategory, setSelectedCategory] = useState("All Projects");
   const [isExpanded, setIsExpanded] = useState(false);
@@ -51,17 +49,17 @@ const PortfolioHidden = () => {
                   At Canwill, we believe that homes are not just designed,{" "}
                   <b className="mr-1">they’re composed.</b>
                   Each of our residential interiors tells a story of balance —
-                  between aesthetics and function, luxury and livability,
-                  individuality and timelessness.
+                  between{" "}
+                  <b>
+                    aesthetics and function, luxury and livability,
+                    individuality and timelessness.
+                  </b>{" "}
                 </p>
 
                 <p className="text-justify text-gray-700 text-lg mt-3">
                   Featured in leading design publications, our work stands apart
                   for its meticulous detailing and restraint, creating spaces
-                  that breathe, flow, and inspire. Here, you’ll discover a
-                  glimpse of our residential projects — homes that reflect the
-                  lifestyle of discerning 2 and 3 BHK homeowners who value
-                  design that feels personal, elevated, and enduring.
+                  that breathe, flow, and inspire.
                   {!isExpanded && (
                     <span
                       onClick={() => setIsExpanded(true)}
@@ -86,7 +84,14 @@ const PortfolioHidden = () => {
                       subtle sophistication. Nothing is accidental—from
                       materiality to light, proportion to palette. This
                       sensitivity has earned our homes recognition in
-                      Architectural Digest and Interior Design Today.
+                      Architectural Digest and Interior Design Today. At
+                      Canwill, we believe that homes are not just designed,
+                      they’re composed.
+                    </p>
+
+                    <p className="text-center mt-7 text-gray-700 text-lg ">
+                      Think of us like we’re End-to-end interiors without the
+                      running around
                     </p>
                   </>
                 )}
@@ -207,21 +212,18 @@ const PortfolioHidden = () => {
               url="https://www.instagram.com/p/DLWP2zMtaNV/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
               width={440}
               height={560}
-          
             />
             <InstagramEmbed
               url="https://www.instagram.com/p/DLJelRnN-4j/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
               width={440}
               height={560}
             />
-              
-            
+
             <InstagramEmbed
               url="https://www.instagram.com/p/DMEvMpKS1j0/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA=="
               width={440}
               height={560}
             />
-            
           </div>
         </div>
 
